@@ -439,3 +439,28 @@ export function wireReveal(root = document) {
 }
 
 export const dataset = () => DATA;
+
+/* ---------- Page hero (photo banner with emoji fallback) ---------- */
+
+export function pageHero({ eyebrow, title, lede, photo, emoji, tone = '#F9D9C8,#F4B79A', extra = '' }) {
+  return `<section class="page-hero" style="--tone:linear-gradient(135deg,${tone})">
+    <div class="page-hero-media" aria-hidden="true">
+      <span class="page-hero-fallback">${emoji}</span>
+      ${photo ? `<img data-photo src="${PHOTO(photo)}" alt="" decoding="async">` : ''}
+    </div>
+    <div class="wrap page-hero-content">
+      <p class="eyebrow eyebrow-light">${esc(eyebrow)}</p>
+      <h1>${title}</h1>
+      ${lede ? `<p class="page-hero-lede">${lede}</p>` : ''}
+      ${extra}
+    </div>
+  </section>`;
+}
+
+// Median of numbers (site calculation, never shown as a published value).
+export function median(values) {
+  const v = [...values].sort((a, b) => a - b);
+  if (!v.length) return null;
+  const m = Math.floor(v.length / 2);
+  return v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2;
+}

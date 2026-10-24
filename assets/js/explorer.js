@@ -104,6 +104,8 @@ export function renderExplorer(app, data, params, options = {}) {
   </section>`;
 
   const $ = (s) => app.querySelector(s);
+  // Listen on this page's own root: #app outlives each page, so listeners there would pile up.
+  const root = app.querySelector('.explorer');
   const input = $('#q');
   const clearBtn = $('.search-clear');
   const cardsEl = $('#cards');
@@ -226,7 +228,7 @@ export function renderExplorer(app, data, params, options = {}) {
   clearBtn.addEventListener('click', () => { input.value = ''; state.q = ''; update(); input.focus(); });
   $('#sort').addEventListener('change', (e) => { state.sort = e.target.value; update({ keepScroll: false }); });
 
-  app.addEventListener('click', (e) => {
+  root.addEventListener('click', (e) => {
     const chip = e.target.closest('.chip[data-key]');
     if (chip) {
       const set = state[chip.dataset.key];

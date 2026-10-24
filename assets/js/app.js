@@ -1,37 +1,33 @@
 // Boot, data loading and hash routing.
 // Hash routes (#/explorer?group=bread) keep every view shareable and refresh-safe on GitHub Pages.
 
-import { setData, wireGlobal, wireImages, wireReveal, setDetailListener, closeSheet, esc } from './ui.js';
+import { setData, wireGlobal, wireImages, wireReveal, setDetailListener, closeSheet } from './ui.js';
 import { renderHome } from './home.js';
 import { renderExplorer } from './explorer.js';
 import { renderAdmin } from './admin.js';
+import { renderGroups } from './groups.js';
+import { renderCollection } from './collection.js';
+import { renderGuide } from './guide.js';
+import { renderAbout } from './about.js';
 
 const app = document.getElementById('app');
 let data = null;
 let current = { route: null, cleanup: null };
 
 const PAGES = {
-  groups: { title: 'Food groups', emoji: '🧺' },
-  lowest: { title: 'Lowest-II picks', emoji: '🥗' },
-  mixed: { title: 'Mixed meals', emoji: '🍱' },
-  guide: { title: 'How to read the II', emoji: '📈' },
-  about: { title: 'About & sources', emoji: '📚' },
+  explorer: { title: 'Food Explorer', render: (p) => renderExplorer(app, data, p) },
+  groups: { title: 'Food groups', render: () => renderGroups(app, data) },
+  lowest: { title: 'Lowest-II picks', render: (p) => renderCollection(app, data, p, 'lowest') },
+  mixed: { title: 'Mixed meals', render: (p) => renderCollection(app, data, p, 'mixed') },
+  guide: { title: 'How to read the II', render: () => renderGuide(app, data) },
+  about: { title: 'About & sources', render: () => renderAbout(app, data) },
+  admin: { title: 'Data check', render: (p) => renderAdmin(app, data, p) },
 };
 
 export function parseHash() {
   const raw = location.hash.replace(/^#\/?/, '');
   const [path, query = ''] = raw.split('?');
   return { route: path.split('/')[0] || 'home', params: new URLSearchParams(query) };
-}
-
-function renderPlaceholder(route) {
-  const p = PAGES[route];
-  app.innerHTML = `<section class="wrap page-soon">
-    <span class="soon-emoji" aria-hidden="true">${p.emoji}</span>
-    <h1>${esc(p.title)}</h1>
-    <p>This page is being built next. In the meantime, the Food Explorer has all 629 foods.</p>
-    <a class="btn btn-primary" href="#/explorer">Open the Explorer</a>
-  </section>`;
 }
 
 function render() {
@@ -49,13 +45,10 @@ function render() {
   if (detail.open && !params.get('food')) closeSheet(detail);
 
   if (route === 'home') current.cleanup = renderHome(app, data);
-  else if (route === 'explorer') current.cleanup = renderExplorer(app, data, params);
-  else if (route === 'admin') current.cleanup = renderAdmin(app, data, params);
-  else if (PAGES[route]) renderPlaceholder(route);
+  else if (PAGES[route]) current.cleanup = PAGES[route].render(params);
   else { location.replace('#/'); return; }
 
-  document.title = route === 'home' ? 'Insulin Index Explorer'
-    : `${{ explorer: 'Food Explorer', admin: 'Data check' }[route] || PAGES[route].title} · Insulin Index Explorer`;
+  document.title = route === 'home' ? 'Insulin Index Explorer' : `${PAGES[route].title} · Insulin Index Explorer`;
 
   wireImages(app);
   wireReveal(app);

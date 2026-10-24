@@ -265,6 +265,8 @@ export function renderAdmin(app, data, params) {
   </section>`;
 
   const $ = (s) => app.querySelector(s);
+  // Listen on this page's own root: #app outlives each page, so listeners there would pile up.
+  const root = app.querySelector('.admin');
   const body = $('#pbody');
 
   const isChecked = (n) => review.checked[n] === prints[n];
@@ -434,7 +436,7 @@ export function renderAdmin(app, data, params) {
   $('#acat').addEventListener('change', (e) => { state.cat = e.target.value; render(); });
   $('#asite').addEventListener('change', (e) => { state.site = e.target.checked; $('#ptable').classList.toggle('show-site', state.site); writeURL(); });
 
-  app.addEventListener('change', (e) => {
+  root.addEventListener('change', (e) => {
     const cb = e.target.closest('[data-check]');
     if (cb) { setChecked(cb.dataset.check, cb.checked); persist(); updateProgress(); state.active = cb.dataset.check; markActive(false); }
     const file = e.target.closest('[data-restore]');
@@ -451,7 +453,7 @@ export function renderAdmin(app, data, params) {
     }
   });
 
-  app.addEventListener('click', (e) => {
+  root.addEventListener('click', (e) => {
     const show = e.target.closest('[data-show]');
     if (show) {
       state.show = show.dataset.show;
