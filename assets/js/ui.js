@@ -1,0 +1,441 @@
+// Shared rendering helpers: escaping, footnote markers, badges, cards,
+// the food detail sheet, the compare tray and the compare sheet.
+
+export const FOOTNOTES = {
+  '*': 'II derived from the article’s supplementary file',
+  '§': 'Mean II shown; the study also reported a median',
+  '†': 'No BMI given, but standard protocol stated',
+  '‡': 'Study 2 of a two-study article',
+  '||': 'Discrepancy between 9 and 10 subjects in the original article',
+  '¶': 'New rice variants without abbreviations',
+};
+
+export const LEVELS = {
+  low: { label: 'Low', range: 'under 45' },
+  moderate: { label: 'Moderate', range: '45 to 70' },
+  high: { label: 'High', range: 'over 70' },
+};
+
+export const PHOTO = (id, w = 1600) =>
+  `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=${w}`;
+
+const METER_MAX = 210;
+const MAX_COMPARE = 3;
+
+let DATA = null;
+let GROUPS = {};
+let FOODS = {};
+
+export function setData(data) {
+  DATA = data;
+  GROUPS = Object.fromEntries(data.groups.map((g) => [g.id, g]));
+  FOODS = Object.fromEntries(data.foods.map((f) => [f.n, f]));
+}
+export const getGroup = (id) => GROUPS[id];
+export const getFood = (n) => FOODS[n];
+
+export function esc(value) {
+  return String(value).replace(/[&<>"']/g, (c) => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+  ));
+}
+
+export const groupStyle = (g) => `--g-bg:${g.bg};--g-ink:${g.ink}`;
+
+// Plain text with footnote symbols removed, for labels and search.
+export const plain = (text) => text.replace(/‡|¶|†|\|\|/g, '').replace(/\s+/g, ' ').trim();
+
+// Render text exactly as published, turning footnote symbols into markers.
+// interactive = focusable markers with a tooltip (not allowed inside buttons).
+export function marked(text, interactive = false) {
+  return String(text).split(/(‡|¶|†|\|\|)/).map((part) => {
+    if (!FOOTNOTES[part]) return esc(part);
+    return footnoteMarker(part, interactive);
+  }).join('');
+}
+
+export function footnoteMarker(sym, interactive = false) {
+  const tip = FOOTNOTES[sym];
+  if (!tip) return '';
+  if (!interactive) return `<sup class="fn-mark" title="${esc(tip)}">${esc(sym)}</sup>`;
+  return `<button type="button" class="fn" data-tip="${esc(tip)}" aria-label="Footnote ${esc(sym)}: ${esc(tip)}">${esc(sym)}</button>`;
+}
+
+export function badge(level) {
+  const l = LEVELS[level];
+  return `<span class="badge badge-${level}"><span class="badge-icon" aria-hidden="true"></span>${l.label}</span>`;
+}
+
+export const refTag = (ref) =>
+  `<span class="tag tag-ref tag-${ref}">vs ${ref}</span>`;
+
+export const mealTag = (meal) =>
+  `<span class="tag tag-meal">${meal === 'SINGLE' ? 'Single food' : 'Mixed meal'}</span>`;
+
+export function meter(value, big = false) {
+  const pct = Math.min(100, (value / METER_MAX) * 100).toFixed(1);
+  return `<span class="meter${big ? ' meter-big' : ''}" aria-hidden="true">
+    <span class="meter-ref"></span><span class="meter-dot" style="--p:${pct}%"></span></span>`;
+}
+
+export function card(f, index = 0) {
+  const g = GROUPS[f.group];
+  const on = compareIds.includes(f.n);
+  return `<li class="card" style="${groupStyle(g)};--i:${index % 12}">
+    <button type="button" class="card-open" data-open="${f.n}">
+      <span class="card-head">
+        <span class="card-emoji" aria-hidden="true">${g.emoji}</span>
+        <span class="card-group">${esc(g.label)}</span>
+      </span>
+      <span class="card-name">${marked(f.name)}</span>
+      <span class="card-score">
+        <span class="ii"><span class="ii-num">${esc(f.ii)}</span>${f.iiNote ? footnoteMarker(f.iiNote) : ''}<span class="ii-unit">II</span></span>
+        ${badge(f.level)}
+      </span>
+      ${meter(f.iiValue)}
+    </button>
+    <div class="card-foot" data-open="${f.n}">
+    <span class="tags">${refTag(f.ref)}${mealTag(f.meal)}</span>
+    <button type="button" class="cmp-btn" data-cmp="${f.n}" aria-pressed="${on}"
+      aria-label="${on ? 'Remove from' : 'Add to'} compare: ${esc(plain(f.name))}">
+      <span aria-hidden="true">${on ? '✓' : '+'}</span> ${on ? 'Comparing' : 'Compare'}</button>
+    </div>
+  </li>`;
+}
+
+/* ---------- Toast ---------- */
+
+let toastTimer;
+export function toast(message) {
+  let el = document.getElementById('toast');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'toast';
+    el.className = 'toast';
+    el.setAttribute('role', 'status');
+    document.body.append(el);
+  }
+  el.textContent = message;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 2600);
+}
+
+/* ---------- Dialog helpers (animated open/close, drag-to-close) ---------- */
+
+const reduceMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+export function openSheet(dialog) {
+  if (!dialog.open) dialog.showModal();
+  dialog.classList.remove('closing');
+  dialog.querySelector('.sheet-inner').scrollTop = 0;
+}
+
+export function closeSheet(dialog) {
+  if (!dialog.open || dialog.classList.contains('closing')) return;
+  if (reduceMotion()) { dialog.close(); return; }
+  dialog.classList.add('closing');
+  const done = () => { dialog.classList.remove('closing'); dialog.close(); };
+  dialog.addEventListener('animationend', done, { once: true });
+  setTimeout(() => dialog.open && done(), 400);
+}
+
+function wireSheet(dialog) {
+  dialog.addEventListener('click', (e) => {
+    if (e.target === dialog) closeSheet(dialog);
+    if (e.target.closest('[data-close]')) closeSheet(dialog);
+  });
+  dialog.addEventListener('cancel', (e) => { e.preventDefault(); closeSheet(dialog); });
+
+  // Drag the handle down to dismiss (phones).
+  let startY = null;
+  const inner = dialog.querySelector('.sheet-inner');
+  dialog.addEventListener('pointerdown', (e) => {
+    if (!e.target.closest('.sheet-handle')) return;
+    startY = e.clientY;
+    inner.style.transition = 'none';
+    e.target.setPointerCapture?.(e.pointerId);
+  });
+  dialog.addEventListener('pointermove', (e) => {
+    if (startY === null) return;
+    const dy = Math.max(0, e.clientY - startY);
+    inner.style.transform = `translateY(${dy}px)`;
+  });
+  const end = (e) => {
+    if (startY === null) return;
+    const dy = e.clientY - startY;
+    startY = null;
+    inner.style.transition = '';
+    inner.style.transform = '';
+    if (dy > 110) closeSheet(dialog);
+  };
+  dialog.addEventListener('pointerup', end);
+  dialog.addEventListener('pointercancel', end);
+}
+
+/* ---------- Food detail ---------- */
+
+let onDetailChange = () => {};
+export function setDetailListener(fn) { onDetailChange = fn; }
+
+export function openDetail(n) {
+  const f = FOODS[n];
+  if (!f) return;
+  const g = GROUPS[f.group];
+  const dialog = document.getElementById('detail');
+  const body = document.getElementById('detail-body');
+  const on = compareIds.includes(f.n);
+  const studyNo = (f.study.match(/\[(\d+)\]/) || [])[1];
+  const symbols = [f.iiNote, ...['‡', '||', '¶'].filter((s) => f.name.includes(s)),
+    ...(f.subjects.includes('†') ? ['†'] : [])].filter(Boolean);
+
+  body.innerHTML = `
+    <div class="sheet-handle" aria-hidden="true"><span></span></div>
+    <button type="button" class="icon-btn sheet-close" data-close aria-label="Close details">✕</button>
+    <div class="detail-hero" style="${groupStyle(g)}">
+      <span class="detail-emoji" aria-hidden="true">${g.emoji}</span>
+      <p class="detail-group">${esc(g.label)}</p>
+    </div>
+    <div class="detail-content">
+      <h2 id="detail-title" class="detail-name">${marked(f.name, true)}</h2>
+      <p class="detail-cat">${esc(f.category)}${f.subcategory ? ` · ${esc(f.subcategory)}` : ''}</p>
+
+      <div class="detail-score">
+        <div class="detail-ii">
+          <span class="ii-num">${esc(f.ii)}</span>${f.iiNote ? footnoteMarker(f.iiNote, true) : ''}
+          <span class="ii-unit">insulin index</span>
+        </div>
+        <div class="detail-badges">${badge(f.level)}${refTag(f.ref)}${mealTag(f.meal)}</div>
+      </div>
+      <div class="detail-meter">
+        ${meter(f.iiValue, true)}
+        <div class="meter-scale" aria-hidden="true"><span>0</span><span class="scale-ref">100 = reference</span><span>210</span></div>
+      </div>
+      <p class="detail-ref-note"><span aria-hidden="true">${f.ref === 'bread' ? '🍞' : '🧪'}</span>
+        <span>Scored against <strong>${f.ref}</strong>. Only compare it with other “vs ${f.ref}” foods.</span></p>
+
+      <dl class="facts">
+        <div><dt>Portion</dt><dd>${esc(f.portion)}</dd></div>
+        <div><dt>Subjects</dt><dd>${marked(f.subjects, true)}</dd></div>
+        <div class="wide"><dt>Comparator (reference food)</dt><dd>${esc(f.comparator)}</dd></div>
+        <div class="wide"><dt>Study</dt><dd>${esc(f.study)}${studyNo ? `<span class="hint">[${studyNo}] is its number in the paper’s reference list</span>` : ''}</dd></div>
+        <div><dt>Country</dt><dd>${esc(f.country)}</dd></div>
+        <div><dt>Entry</dt><dd>No. ${esc(f.n)} in Table 1</dd></div>
+      </dl>
+
+      ${sameFoodList(f)}
+
+      ${symbols.length ? `<div class="footnotes"><p class="footnotes-title">Footnotes</p><ul>
+        ${symbols.map((s) => `<li><span class="fn-sym">${esc(s)}</span> ${esc(FOOTNOTES[s])}</li>`).join('')}
+      </ul></div>` : ''}
+
+      <div class="detail-actions">
+        <button type="button" class="btn ${on ? 'btn-soft' : 'btn-primary'}" data-detail-cmp="${f.n}" aria-pressed="${on}">
+          ${on ? '✓ In compare' : '+ Add to compare'}</button>
+        <button type="button" class="btn btn-ghost" data-copy-link>Copy link</button>
+      </div>
+    </div>`;
+
+  openSheet(dialog);
+  onDetailChange(f.n);
+}
+
+// Other entries with the same published name (the same food tested in other studies or arms).
+function sameFoodList(f) {
+  const key = plain(f.name).toLowerCase();
+  const others = DATA.foods.filter((x) => x.n !== f.n && plain(x.name).toLowerCase() === key);
+  if (!others.length) return '';
+  return `<div class="same-food">
+    <p class="same-title">Same food, other entries <span>${others.length}</span></p>
+    <ul>${others.map((x) => `<li><button type="button" class="same-row" data-open="${x.n}">
+      <span class="same-ii">${esc(x.ii)}</span>
+      <span class="same-meta">${esc(x.study)} · ${esc(x.country)}</span>
+      ${refTag(x.ref)}</button></li>`).join('')}</ul>
+    <p class="hint">Results differ with portion, preparation, volunteers and reference food.</p>
+  </div>`;
+}
+
+function barChart(items) {
+  const max = Math.max(210, ...items.map((f) => f.iiValue));
+  const refPct = (100 / max) * 100;
+  return `<figure class="bars" aria-label="Bar chart of insulin index">
+    <div class="bars-plot" style="--ref:${refPct}%">
+      ${items.map((f) => `<div class="bar-row">
+        <span class="bar-label">${GROUPS[f.group].emoji} ${esc(plain(f.name))}</span>
+        <span class="bar-track"><span class="bar bar-${f.level}" style="--w:${(f.iiValue / max) * 100}%"></span>
+          <span class="bar-val">${esc(f.ii)} <small>vs ${f.ref}</small></span></span>
+      </div>`).join('')}
+      <span class="bars-ref" aria-hidden="true"><span>100 = reference</span></span>
+    </div>
+  </figure>`;
+}
+
+/* ---------- Compare ---------- */
+
+export let compareIds = [];
+try { compareIds = JSON.parse(sessionStorage.getItem('ii-compare') || '[]').filter((n) => n); } catch { /* ignore */ }
+
+const compareListeners = new Set();
+export const onCompareChange = (fn) => compareListeners.add(fn);
+
+function saveCompare() {
+  try { sessionStorage.setItem('ii-compare', JSON.stringify(compareIds)); } catch { /* ignore */ }
+  renderTray();
+  compareListeners.forEach((fn) => fn(compareIds));
+}
+
+export function toggleCompare(n) {
+  if (compareIds.includes(n)) {
+    compareIds = compareIds.filter((x) => x !== n);
+  } else {
+    if (compareIds.length >= MAX_COMPARE) { toast(`You can compare up to ${MAX_COMPARE} foods. Remove one first.`); return false; }
+    compareIds = [...compareIds, n];
+    if (compareIds.length >= 2) toast(`${compareIds.length} foods ready to compare`);
+  }
+  saveCompare();
+  return true;
+}
+
+export function renderTray() {
+  const tray = document.getElementById('compare-tray');
+  const items = compareIds.map((n) => FOODS[n]).filter(Boolean);
+  if (!items.length) { tray.hidden = true; tray.innerHTML = ''; return; }
+  tray.hidden = false;
+  tray.innerHTML = `
+    <div class="tray-items">
+      ${items.map((f) => `<span class="tray-item" style="${groupStyle(GROUPS[f.group])}">
+        <span aria-hidden="true">${GROUPS[f.group].emoji}</span>
+        <span class="tray-name">${esc(plain(f.name))}</span>
+        <button type="button" class="tray-x" data-cmp="${f.n}" aria-label="Remove ${esc(plain(f.name))} from compare">✕</button>
+      </span>`).join('')}
+      ${Array.from({ length: MAX_COMPARE - items.length }, () => '<span class="tray-slot" aria-hidden="true"></span>').join('')}
+    </div>
+    <button type="button" class="btn btn-primary tray-go" data-open-compare ${items.length < 2 ? 'disabled' : ''}>
+      Compare ${items.length}/${MAX_COMPARE}</button>`;
+}
+
+export function openCompare() {
+  const items = compareIds.map((n) => FOODS[n]).filter(Boolean);
+  if (items.length < 2) return;
+  const refs = new Set(items.map((f) => f.ref));
+  const dialog = document.getElementById('compare');
+  const rows = [
+    ['Insulin index', (f) => `<span class="cmp-ii">${esc(f.ii)}</span>${f.iiNote ? footnoteMarker(f.iiNote, true) : ''}`],
+    ['Level', (f) => badge(f.level)],
+    ['Reference', (f) => refTag(f.ref)],
+    ['Type', (f) => mealTag(f.meal)],
+    ['Portion', (f) => esc(f.portion)],
+    ['Subjects', (f) => marked(f.subjects, true)],
+    ['Comparator', (f) => esc(f.comparator)],
+    ['Study', (f) => esc(f.study)],
+    ['Country', (f) => esc(f.country)],
+  ];
+  document.getElementById('compare-body').innerHTML = `
+    <div class="sheet-handle" aria-hidden="true"><span></span></div>
+    <button type="button" class="icon-btn sheet-close" data-close aria-label="Close comparison">✕</button>
+    <div class="compare-content">
+      <h2 id="compare-title" class="compare-title">Side by side</h2>
+      ${refs.size > 1 ? `<div class="warning" role="alert"><span aria-hidden="true">⚠️</span><div>
+        <strong>Different reference foods.</strong> Some of these were scored against glucose and some against bread.
+        Bread itself scored around 70 against glucose, so these numbers are not directly comparable.</div></div>`
+        : `<p class="compare-ok"><span aria-hidden="true">✓</span> All scored against ${[...refs][0]}, but portions and volunteers still differ between studies.</p>`}
+      ${barChart(items)}
+      <div class="compare-scroll">
+        <table class="compare-table" style="--cols:${items.length}">
+          <thead><tr><th scope="col"><span class="sr-only">Detail</span></th>
+            ${items.map((f) => `<th scope="col" style="${groupStyle(GROUPS[f.group])}">
+              <span class="cmp-emoji" aria-hidden="true">${GROUPS[f.group].emoji}</span>
+              <span class="cmp-name">${marked(f.name, true)}</span>
+              <span class="cmp-meter">${meter(f.iiValue)}</span></th>`).join('')}</tr></thead>
+          <tbody>${rows.map(([label, fn]) => `<tr><th scope="row">${label}</th>${items.map((f) => `<td>${fn(f)}</td>`).join('')}</tr>`).join('')}</tbody>
+        </table>
+      </div>
+      <div class="detail-actions">
+        <button type="button" class="btn btn-ghost" data-clear-compare>Clear all</button>
+      </div>
+    </div>`;
+  openSheet(dialog);
+}
+
+/* ---------- Global wiring for cards, tray and sheets ---------- */
+
+export function wireGlobal() {
+  const detail = document.getElementById('detail');
+  const compare = document.getElementById('compare');
+  wireSheet(detail);
+  wireSheet(compare);
+  detail.addEventListener('close', () => onDetailChange(null));
+
+  document.addEventListener('click', async (e) => {
+    const cmp = e.target.closest('[data-cmp]');
+    if (cmp) { toggleCompare(cmp.dataset.cmp); return; }
+
+    const open = e.target.closest('[data-open]');
+    if (open) { openDetail(open.dataset.open); return; }
+
+    const dcmp = e.target.closest('[data-detail-cmp]');
+    if (dcmp) {
+      if (toggleCompare(dcmp.dataset.detailCmp)) {
+        const on = compareIds.includes(dcmp.dataset.detailCmp);
+        dcmp.setAttribute('aria-pressed', on);
+        dcmp.className = `btn ${on ? 'btn-soft' : 'btn-primary'}`;
+        dcmp.textContent = on ? '✓ In compare' : '+ Add to compare';
+      }
+      return;
+    }
+
+    if (e.target.closest('[data-open-compare]')) { openCompare(); return; }
+    if (e.target.closest('[data-clear-compare]')) {
+      compareIds = []; saveCompare(); closeSheet(compare); return;
+    }
+    if (e.target.closest('[data-copy-link]')) {
+      try { await navigator.clipboard.writeText(location.href); toast('Link copied'); } catch { toast('Copy the address bar to share this food'); }
+    }
+  });
+
+  // Keep compare buttons on visible cards in sync.
+  onCompareChange((ids) => {
+    document.querySelectorAll('.cmp-btn[data-cmp]').forEach((b) => {
+      const on = ids.includes(b.dataset.cmp);
+      const f = FOODS[b.dataset.cmp];
+      b.setAttribute('aria-pressed', on);
+      b.setAttribute('aria-label', `${on ? 'Remove from' : 'Add to'} compare: ${plain(f.name)}`);
+      b.innerHTML = `<span aria-hidden="true">${on ? '✓' : '+'}</span> ${on ? 'Comparing' : 'Compare'}`;
+    });
+  });
+
+  renderTray();
+}
+
+/* ---------- Images with graceful fallback ---------- */
+
+// Photos sit on top of an emoji + gradient fallback. If a photo fails,
+// it is removed, so a broken image is never shown.
+export function wireImages(root = document) {
+  root.querySelectorAll('img[data-photo]').forEach((img) => {
+    const fail = () => img.remove();
+    const ok = () => img.classList.add('loaded');
+    if (img.complete) { if (img.naturalWidth) ok(); else fail(); }
+    img.addEventListener('load', ok, { once: true });
+    img.addEventListener('error', fail, { once: true });
+  });
+}
+
+/* ---------- Reveal on scroll ---------- */
+
+let revealObserver;
+export function wireReveal(root = document) {
+  const els = root.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window) || reduceMotion()) {
+    els.forEach((el) => el.classList.add('in'));
+    return;
+  }
+  revealObserver ??= new IntersectionObserver((entries) => {
+    entries.forEach((en) => {
+      if (en.isIntersecting) { en.target.classList.add('in'); revealObserver.unobserve(en.target); }
+    });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+  els.forEach((el) => revealObserver.observe(el));
+}
+
+export const dataset = () => DATA;

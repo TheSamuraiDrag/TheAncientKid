@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Insulin Index Explorer</title>
+  <meta name="description" content="Search and explore the insulin index (II) of 629 foods from 80 studies, based on Hendricks et al., Clinical Nutrition ESPEN 2024.">
+  <meta name="theme-color" content="#FBF7F1">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.pexels.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,500..800,50..100&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="#/" aria-label="Insulin Index Explorer, home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="32" height="32"><defs><linearGradient id="bm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F08A5D"/><stop offset="1" stop-color="#D9573B"/></linearGradient></defs><rect width="32" height="32" rx="10" fill="url(#bm)"/><path d="M16 6.5c3.6 4.6 6.5 8.3 6.5 11.6A6.5 6.5 0 0 1 9.5 18.1c0-3.3 2.9-7 6.5-11.6Z" fill="#FFF7EE"/><path d="M13 18.5a3 3 0 0 0 3 3" stroke="#D9573B" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">Insulin Index <em>Explorer</em></span>
+      </a>
+      <nav class="main-nav" aria-label="Main">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+          <span class="nav-toggle-bars" aria-hidden="true"></span><span class="sr-only">Menu</span>
+        </button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#/explorer" data-route="explorer">Explorer</a></li>
+          <li><a href="#/groups" data-route="groups">Food groups</a></li>
+          <li><a href="#/lowest" data-route="lowest">Lowest-II picks</a></li>
+          <li><a href="#/mixed" data-route="mixed">Mixed meals</a></li>
+          <li><a href="#/guide" data-route="guide">How to read</a></li>
+          <li><a href="#/about" data-route="about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1" aria-live="off">
+    <div class="loading" role="status"><span class="spinner" aria-hidden="true"></span> Loading foods…</div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <p class="footer-title">Insulin Index Explorer</p>
+        <p class="disclaimer"><strong>Educational only, not medical advice.</strong> If you have diabetes or another health condition, speak to your doctor or dietitian.</p>
+      </div>
+      <div class="footer-cite">
+        <p><span class="footer-label">Data source</span>
+          Hendricks SA, Paul MJ, Subramaniam Y, Vijayam B. A collectanea of food insulinaemic index: 2023. <i>Clinical Nutrition ESPEN</i>. 2024;63:92–104.
+          <a href="https://doi.org/10.1016/j.clnesp.2024.06.017" rel="noopener">doi.org/10.1016/j.clnesp.2024.06.017</a></p>
+        <p><span class="footer-label">Licence</span> Data used under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="noopener license">CC BY-NC-ND 4.0</a>. &nbsp;<span class="footer-label">Photos</span> <a href="https://www.pexels.com" rel="noopener">Pexels</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Food detail: bottom sheet on phones, side panel on desktop -->
+  <dialog id="detail" class="sheet" aria-labelledby="detail-title">
+    <div class="sheet-inner" id="detail-body"></div>
+  </dialog>
+
+  <!-- Side-by-side comparison -->
+  <dialog id="compare" class="sheet sheet-wide" aria-labelledby="compare-title">
+    <div class="sheet-inner" id="compare-body"></div>
+  </dialog>
+
+  <!-- Floating compare tray -->
+  <div id="compare-tray" class="compare-tray" hidden></div>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

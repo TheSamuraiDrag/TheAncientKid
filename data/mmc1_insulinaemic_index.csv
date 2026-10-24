@@ -1,0 +1,630 @@
+Number,Food / Beverage Name,Category,Subcategory,Total Weight (g) / Portion,Single / Mixed Meal,II,II footnote,Subject Details (No. of Subjects),Comparator,Author / Year / Reference,Country
+1,Battered fish fillet (Coles),"Animal Protein, Poultry / Seafood / Meat Meals",,110,SINGLE,54,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+2,"Beef sausage (thin, grilled; Coles)","Animal Protein, Poultry / Seafood / Meat Meals",,106,SINGLE,7,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+3,Beef steak,"Animal Protein, Poultry / Seafood / Meat Meals",,158,SINGLE,51,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+4,Beef steak (grilled),"Animal Protein, Poultry / Seafood / Meat Meals",,158,SINGLE,37,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+5,"Beef steak (lean topside fillets, grilled)","Animal Protein, Poultry / Seafood / Meat Meals",,158,SINGLE,51,,BMI 24.3; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+6,Bologna,"Animal Protein, Poultry / Seafood / Meat Meals",,111,SINGLE,11,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+7,Chicken nuggets (Ingham),"Animal Protein, Poultry / Seafood / Meat Meals",,99,SINGLE,41,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+8,Chicken with skin (pan- fried with olive oil),"Animal Protein, Poultry / Seafood / Meat Meals",,94,SINGLE,19,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+9,Eggs (poached),"Animal Protein, Poultry / Seafood / Meat Meals",,160,SINGLE,23,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+10,Eggs (poached),"Animal Protein, Poultry / Seafood / Meat Meals",,159,SINGLE,31,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+11,Eggs (poached),"Animal Protein, Poultry / Seafood / Meat Meals",,159,SINGLE,31,,BMI 24.3; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+12,Frankfurter / hot dog,"Animal Protein, Poultry / Seafood / Meat Meals",,95,SINGLE,16,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+13,Ham (shaved; Coles),"Animal Protein, Poultry / Seafood / Meat Meals",,213,SINGLE,19,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+14,Lamb (grilled),"Animal Protein, Poultry / Seafood / Meat Meals",,136,SINGLE,21,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+15,Pork (grilled),"Animal Protein, Poultry / Seafood / Meat Meals",,239,SINGLE,19,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+16,"Prawns (peeled, boiled; Findus Seafood Deli)","Animal Protein, Poultry / Seafood / Meat Meals",,235,SINGLE,21,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+17,Roast chicken,"Animal Protein, Poultry / Seafood / Meat Meals",,75,SINGLE,23,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+18,"Roast chicken, without skin (Woolworth)","Animal Protein, Poultry / Seafood / Meat Meals",,113,SINGLE,17,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+19,Short-cut bacon (Primo Smallgoods),"Animal Protein, Poultry / Seafood / Meat Meals",,106,SINGLE,9,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+20,Tuna canned in oil (drained; Coles),"Animal Protein, Poultry / Seafood / Meat Meals",,135,SINGLE,16,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+21,Tuna canned in water (drained; Coles),"Animal Protein, Poultry / Seafood / Meat Meals",,239,SINGLE,26,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+22,Tuna chunks in oil (Coles),"Animal Protein, Poultry / Seafood / Meat Meals",,110,SINGLE,22,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+23,White fish (Ling fish fillets; steamed),"Animal Protein, Poultry / Seafood / Meat Meals",,333,SINGLE,59,,BMI 24.3; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+24,White fish (Ling) fillet,"Animal Protein, Poultry / Seafood / Meat Meals",,333,SINGLE,43,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+25,Apple pie (Sara Lee),Bakery Products (Non-Bread),,85,SINGLE,47,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+26,"Blueberry streusel muffin (Duncan Hines Blueberry, Pinnacle Foods)",Bakery Products (Non-Bread),,79,SINGLE,69,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+27,Brioche,Bakery Products (Non-Bread),,101,SINGLE,115,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+28,"Cinnamon swirl pastry (Entenmanns Cinnamon Swirl Bun, Bimbo Bakeries)",Bakery Products (Non-Bread),,63,SINGLE,42,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+29,Croissant,Bakery Products (Non-Bread),,85,SINGLE,79,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+30,Croissant,Bakery Products (Non-Bread),,61,SINGLE,79,,BMI 23.1; (12 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+31,"Croissant (Woolworths, Supermarket Inc.)",Bakery Products (Non-Bread),,66,SINGLE,58,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+32,Doughnut with cinnamon sugar,Bakery Products (Non-Bread),,65,SINGLE,74,,BMI 23.1; (12 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+33,"Doughnut with cinnamon sugar (Woolworths, Supermarket Inc.)",Bakery Products (Non-Bread),,65,SINGLE,54,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+34,"Fat-free blueberry muffin (Krusteaz Wild Blueberry, Continental Mills)",Bakery Products (Non-Bread),,101,SINGLE,69,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+35,Honey-raisin bran muffin (Sun Maid),Bakery Products (Non-Bread),,64,SINGLE,37,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+36,Pain au lait (Pasquier),Bakery Products (Non-Bread),,94,SINGLE,74,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+37,Soft pretzel (Brezel; Ditsch),Bakery Products (Non-Bread),,100.2,SINGLE,102,,"healthy, mean BMI 22.3; (12 subjects)",50g glucose solution,"Goletze et al., 2016 [81]",Germany
+38,"21g Alcohol (Spiritus Fortis A, ethanolum 96%; Berner Ltd) with 25g glucose dissolved in water",Beverages,Alcohol,250mL,SINGLE,121,,"healthy, BMI 23; (10 subjects)",25g glucose,"Hätönen et al., 2012a [67]",Finland
+39,Beer (4.9% alcohol; Budweiser),Beverages,Alcohol,671,SINGLE,20,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+40,Gin (40% alcohol),Beverages,Alcohol,111,SINGLE,1,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+41,Nikolai Lager 0.0% (Non- Alcoholic Beer; Sinebrychoff Ltd),Beverages,Alcohol,640,SINGLE,88,,"healthy, BMI 23; (10 subjects)",25g glucose,"Hätönen et al., 2012a [67]",Finland
+42,White Wine (11% alcohol),Beverages,Alcohol,362,SINGLE,3,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+43,Coca-Cola,Beverages,Carbonated,595,SINGLE,44,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+44,Coca-Cola,Beverages,Carbonated,583,SINGLE,60,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+45,Bilberry 10% + fermented oat-milk (5%) drink (Pro Viva) + 150mL tea/coffee/water,Beverages,Non-Carbonated,270.3,MIXED MEAL,63,,"healthy, BMI 23.5; (11 subjects)",70g bread (30g avCHO),"Granfeldt et al., 2011 [68]",Sweden
+46,"Bilberry 10% + fermented oat-milk (5%) drink (Pro Viva) added with frozen, thawed, and homogenised bilberries + 150mL tea/coffee/water",Beverages,Non-Carbonated,307.7,MIXED MEAL,49,,"healthy, BMI 23.5; (11 subjects)",70g bread (30g avCHO),"Granfeldt et al., 2011 [68]",Sweden
+47,Fermented oatmeal probiotic fruit drink (ProViva) + beetroot 15%,Beverages,Non-Carbonated,272,MIXED MEAL,86.5,,"healthy, BMI 24.3; (11 subjects)",30g glucose,"Xu et al., 2018 [83]",Sweden
+48,Fermented oatmeal probiotic fruit drink (ProViva) + bilberry 10%,Beverages,Non-Carbonated,244,MIXED MEAL,63.8,,"healthy, BMI 24.3; (10 subjects)",30g glucose,"Xu et al., 2018 [83]",Sweden
+49,Fermented oatmeal probiotic fruit drink (ProViva) + blackcurrant 25%,Beverages,Non-Carbonated,262,MIXED MEAL,76.9,,"healthy, BMI 24.3; (10 subjects)",30g glucose,"Xu et al., 2018 [83]",Sweden
+50,Fermented oatmeal probiotic fruit drink (ProViva) + mango 6.5%,Beverages,Non-Carbonated,288,MIXED MEAL,68.9,,"healthy, BMI 24.3; (10 subjects)",30g glucose,"Xu et al., 2018 [83]",Sweden
+51,Fermented oatmeal probiotic fruit drink (ProViva) + rose hip 14%,Beverages,Non-Carbonated,285,MIXED MEAL,70.8,,"healthy, BMI 24.3; (11 subjects)",30g glucose,"Xu et al., 2018 [83]",Sweden
+52,Fermented oat-milk (5%) drink (Pro Viva) + 150mL tea/coffee/water,Beverages,Non-Carbonated,270.3,MIXED MEAL,76,,"healthy, BMI 23.5; (11 subjects)",70g bread (30g avCHO),"Granfeldt et al., 2011 [68]",Sweden
+53,Fruit flavoured beverage,Beverages,Non-Carbonated,769.2,SINGLE,66,,"healthy, BMI 22.7; (10 subjects)",50g glucose,"Wright et al., 2014 [63]",Australia
+54,Fruit flavoured beverage + filtered molasses concentrate (1.8g),Beverages,Non-Carbonated,819.7,MIXED MEAL,56,,"healthy, BMI 22.7; (10 subjects)",50g glucose,"Wright et al., 2014 [63]",Australia
+55,Ice tea (Narkena Ltd),Beverages,Non-Carbonated,622,SINGLE,69,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+56,Lemon ice tea (TAISUN),Beverages,Non-Carbonated,214,SINGLE,95,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+57,"Oat drink with β-glucan 2g (oat bran 15g, oat starch 6g, and glucose 41g mixed with 400mL water) + 100mL of water",Beverages,Non-Carbonated,49g + 500mL,SINGLE,75,,"healthy, BMI 22.1 (10 subjects)",50g glucose in 300mL of water,"Mäkeläinen et al., 2007 [84]",Finland
+58,"Oat drink with β-glucan 4g (oat bran 30g, oat starch 3g and glucose 41g mixed with 400mL water) + 100mL of water",Beverages,Non-Carbonated,48g + 500mL,SINGLE,57.6,,"healthy, BMI 22.1 (10 subjects)",50g glucose in 300mL of water,"Mäkeläinen et al., 2007 [84]",Finland
+59,"Oat drink with β-glucan 4g (oat bran 30g, oat starch 3g and glucose 41g mixed with 400mL water, frozen then thawed) + 200mL of water",Beverages,Non-Carbonated,48g + 600mL,SINGLE,41.8,,"healthy, BMI 22.1 (10 subjects)",50g glucose in 300mL of water,"Mäkeläinen et al., 2007 [84]",Finland
+60,Oat drink with β-glucan 6g (oat bran 45g and glucose 41g mixed with 400mL water) with 100mL of water,Beverages,Non-Carbonated,47g + 500mL,SINGLE,51.1,,"healthy, BMI 22.1 (10 subjects)",50g glucose in 300mL of water,"Mäkeläinen et al., 2007 [84]",Finland
+61,Soy drink high in carbohydrates and fibre (250mL),Beverages,Non-Carbonated,32,SINGLE,27,,"healthy, BMI 23.4; (12 subjects)",50g glucose; pure glucose,"Nimbe Torres y Torres et al., 2006 [82]",Mexico
+62,Soy drink high in carbohydrates and fibre + maltodextrins and fibre (250mL),Beverages,Non-Carbonated,50,SINGLE,45,,"healthy, BMI 23.4; (12 subjects)",50g glucose; pure glucose,"Nimbe Torres y Torres et al., 2006 [82]",Mexico
+63,Soy milk (Chocolate Light; Ades),Beverages,Non-Carbonated,200mL,SINGLE,15,,"healthy, BMI 23.4; (12 subjects)",50g glucose; pure glucose,"Nimbe Torres y Torres et al., 2006 [82]",Mexico
+64,Soy milk (Natural Light; Ades),Beverages,Non-Carbonated,200mL,SINGLE,10,,"healthy, BMI 23.4; (12 subjects)",50g glucose; pure glucose,"Nimbe Torres y Torres et al., 2006 [82]",Mexico
+65,Apple juice,Beverages,Fruit / Vegetable Juices,294,SINGLE,64,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+66,Apple juice (Berri),Beverages,Fruit / Vegetable Juices,200mL,SINGLE,64,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+67,Apple juice (Berrivale Orchards Inc),Beverages,Fruit / Vegetable Juices,588,SINGLE,47,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+68,"Carrot juice (extracted from fresh, raw carrots)",Beverages,Fruit / Vegetable Juices,16.4,SINGLE,56,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+69,Carrot juice (fresh),Beverages,Fruit / Vegetable Juices,762,SINGLE,41,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+70,Fruit punch (Fruity Flavorits Orange Mango Fruit drink; Frost Foods & Beverage),Beverages,Fruit / Vegetable Juices,833,SINGLE,76,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+71,Orange juice (Mr Juicy),Beverages,Fruit / Vegetable Juices,625,SINGLE,55,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+72,Alfacar white bread,Bread,,94,SINGLE,70,,"healthy, BMI 23.8; (22 subjects)",50g glucose,"Gonzalez-Anton et al., 2015 [85]",Spain
+73,Amilo rye bread,Bread,,154.9,SINGLE,80.3,,"healthy, BMI 22.2; (20 subjects)",125.9g White wheat bread,"Rosén et al., 2011b [87]",Sweden
+74,Bread containing high amylose maize starch and guar gum,Bread,,178.7,SINGLE,44,,"healthy, BMI 21.7; (19 subjects)",128.9g White wheat bread,"Ekström et al., 2016[90]",Sweden
+75,Bread containing whole grain Visello rye flour and guar gum,Bread,,188.3,SINGLE,59,,"healthy, BMI 21.7; (18 subjects)",128.9g White wheat bread,"Ekström et al., 2016[90]",Sweden
+76,Bronze sorghum flour bread,Bread,,NA,SINGLE,56,,"healthy, BMI 24.2; (10 subjects)",50g anhydrous glucose,"Dos Reis Gallo et al., 2021 [92]",Brazil
+77,Brown sorghum flour bread,Bread,,NA,SINGLE,50,,"healthy, BMI 24.2; (10 subjects)",50g anhydrous glucose,"Dos Reis Gallo et al., 2021 [92]",Brazil
+78,Candeal flour white bread,Bread,,94,SINGLE,69,,"healthy, BMI 23.8; (22 subjects)",50g glucose,"Gonzalez-Anton et al., 2015 [85]",Spain
+79,Commercial rye bread,Bread,,157.6,SINGLE,92.5,,"healthy, BMI 22.2; (20 subjects)",125.9g White wheat bread,"Rosén et al., 2011b [87]",Sweden
+80,Einkorn crushed whole grain bread,Bread,,129,SINGLE,72,,"healthy male adults, BMI 23; (11 subjects)",118g modern wheat yeast bread (50g avCHO),"Bakhøj et al., 2003 [93]",Denmark
+81,Einkorn honey-salt leavened bread,Bread,,127,SINGLE,76,,"healthy male adults, BMI 23; (11 subjects)",118g modern wheat yeast bread (50g avCHO),"Bakhøj et al., 2003 [93]",Denmark
+82,Einkorn yeast leavened bread,Bread,,127,SINGLE,98,,"healthy male adults, BMI 23; (11 subjects)",118g modern wheat yeast bread (50g avCHO),"Bakhøj et al., 2003 [93]",Denmark
+83,Elevated amylose wheat bread,Bread,,248,SINGLE,155,,BMI 22.2; (14 subjects),127g white wheat bread,"Hallström et al., 2011 [94]",Sweden
+84,Elevated amylose wheat bread + lactic acid,Bread,,259,SINGLE,132,,BMI 22.2; (14 subjects),127g white wheat bread,"Hallström et al., 2011 [94]",Sweden
+85,Endosperm rye bread,Bread,,134.8,SINGLE,68,,"healthy, BMI 22.6; (10 subjects)",124g bread (50g carbohydrates),"Rosén et al., 2011a [86]",Sweden
+86,Endosperm rye bread,Bread,,106.2,SINGLE,61,,"healthy, BMI 23.1; (12 subjects)",101.1g White bread,"Rosen et al., 2009 [88]",Sweden
+87,Evolo rye bread,Bread,,152.6,SINGLE,84.8,,"healthy, BMI 22.2; (20 subjects)",125.9g White wheat bread,"Rosén et al., 2011b [87]",Sweden
+88,Grain bread,Bread,,97.1,SINGLE,71,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+89,Grain bread (Burgen Soy Lin),Bread,,77.7,SINGLE,71,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+90,"Grain bread (Burgen, Soy- Lin)",Bread,,99,SINGLE,52,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+91,Grain bread (TipTop Bakeries Inc),Bread,,108,SINGLE,41,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+92,Kaskelott rye bread,Bread,,154.1,SINGLE,81.5,,"healthy, BMI 22.2; (19 subjects)",125.9g White wheat bread,"Rosén et al., 2011b [87]",Sweden
+93,Ordinary white bread,Bread,,95,SINGLE,68,,"healthy, BMI 23.8; (22 subjects)",50g glucose,"Gonzalez-Anton et al., 2015 [85]",Spain
+94,Picasso rye bread,Bread,,153.9,SINGLE,81.5,,"healthy, BMI 22.2; (20 subjects)",125.9g White wheat bread,"Rosén et al., 2011b [87]",Sweden
+95,Rye bran bread,Bread,,141.7,SINGLE,128,,"healthy, BMI 23.1; (12 subjects)",101.1g White bread,"Rosen et al., 2009 [88]",Sweden
+96,Rye bread (with lactic acid 90g),Bread,,133.1,SINGLE,65,,"healthy, BMI 22.6; (10 subjects)",124g bread (50g carbohydrate),"Rosén et al., 2011a [86]",Sweden
+97,Rye kernel bread,Bread,,226.6,SINGLE,60,,"healthy, BMI 22.6; (10 subjects)",124g bread (50g carbohydrate),"Rosén et al., 2011a [86]",Sweden
+98,Rye wheat sourdough bread (Paderborner; Lieken Urkorn),Bread,,119,SINGLE,72,,"healthy, mean BMI 22.3; (12 subjects)",50g glucose solution,"Goletze et al., 2016 [81]",Germany
+99,Rye-grain bread containing 47% kibbled rye (Tip Top Bakeries),Bread,,108,SINGLE,56,,BMI 23.0; (13 subjects),50g carbohydrates white bread,"Holt et al., 1997 [29]",Australia
+100,Vicello rye bread,Bread,,148.9,SINGLE,73.7,,"healthy, BMI 22.2; (20 subjects)",125.9g White wheat bread,"Rosén et al., 2011b [87]",Sweden
+101,White bagel,Bread,,240kcal (49g carbohydrate),SINGLE,91,,"healthy, no info; (12 subjects)",50g glucose,"Parcell et al., 2004 [69]",United States of America
+102,White bread,Bread,,94.8,SINGLE,82,,"healthy, BMI 25.7; (43 subjects)",55g dextrose or 50g anhydrous glucose 50g,"Wolever et al., 2019 [95]",France
+103,White bread,Bread,,121.1,SINGLE,78,,"healthy, BMI 22.7; (10 subjects)",50g glucose,"Wright et al., 2014 [63]",Australia
+104,White bread,Bread,,NA,SINGLE,81,,"healthy, BMI 21.9; (12 subjects)",glucose solution,"Fontvielle et al., 1988 [59]",France
+105,White bread (100g) with alpha-cyclodextrin (10g dissolved in 250mL water),Bread,,100g + 250mL,MIXED MEAL,43,,"healthy, no info; (12 subjects)",100g white bread (50g avCHO),"Bär et al., 2020 [70]",Switzerland
+106,White bread (precooked frozen),Bread,,100,SINGLE,68,,"healthy, BMI 23.8; (22 subjects)",50g glucose,"Gonzalez-Anton et al., 2015 [85]",Spain
+107,"White bread (Sunblest, TipTop Pty Ltd)",Bread,,97,SINGLE,73,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+108,White bread (Yamazaki),Bread,,107,SINGLE,69,,BMI 20.3; (12 subjects),50g glucose,"Oku et al., 2010 [71]",Japan
+109,White bread + filtered molasses concentrate (3.02g),Bread,,120.8,MIXED MEAL,67,,"healthy, BMI 22.7; (10 subjects)",50g glucose,"Wright et al., 2014 [63]",Australia
+110,White rice flour bread,Bread,,NA,SINGLE,70,,"healthy, BMI 24.2; (10 subjects)",50g anhydrous glucose,"Dos Reis Gallo et al., 2021 [92]",Brazil
+111,White sorghum flour bread,Bread,,NA,SINGLE,44,,"healthy, BMI 24.2; (10 subjects)",50g anhydrous glucose,"Dos Reis Gallo et al., 2021 [92]",Brazil
+112,White wheat bread,Bread,,105,SINGLE,99,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+113,White wheat bread containing Hi-maize whole grain corn flour,Bread,,114.6,SINGLE,94,,"healthy, BMI 23.3; (10 or 11 subjects)",95.6g white wheat bread,"Ekström et al., 2013 [91]",Sweden
+114,White wheat bread containing Hi-maize whole grain corn flour + 3% added medium molecular weight guar gum,Bread,,123.8,SINGLE,87,,"healthy, BMI 23.3; (10 or 11 subjects)",95.6g white wheat bread,"Ekström et al., 2013 [91]",Sweden
+115,White wheat bread containing Hi-maize whole grain corn flour + 6% added medium molecular weight guar gum,Bread,,150,SINGLE,38,,"healthy, BMI 23.3; (10 or 11 subjects)",95.6g white wheat bread,"Ekström et al., 2013 [91]",Sweden
+116,White wheat bread containing Hi-maize whole grain corn flour + 9% added medium molecular weight guar gum,Bread,,174.2,SINGLE,36,,"healthy, BMI 23.3; (10 or 11 subjects)",95.6g white wheat bread,"Ekström et al., 2013 [91]",Sweden
+117,Whole grain rye (Amilo) bread,Bread,,171.9,SINGLE,72,,"healthy, BMI 22; (14 subjects)",122.7g bread (50g carbohydrates),"Rosen et al., 2011c [89]",Sweden
+118,Whole grain rye (Dankowskie-Zlote) bread,Bread,,165.3,SINGLE,89,,"healthy, BMI 22; (14 subjects)",122.7g bread (50g carbohydrates),"Rosen et al., 2011c [89]",Sweden
+119,Whole grain rye (Haute Loire Pop) bread,Bread,,175.8,SINGLE,103,,"healthy, BMI 22; (14 subjects)",122.7g bread (50g carbohydrates),"Rosen et al., 2011c [89]",Sweden
+120,Whole grain rye (Nikita) bread,Bread,,168.8,SINGLE,93,,"healthy, BMI 22; (14 subjects)",122.7g bread (50g carbohydrates),"Rosen et al., 2011c [89]",Sweden
+121,Whole grain rye (Rekrut) bread,Bread,,171,SINGLE,78,,"healthy, BMI 22; (14 subjects)",122.7g bread (50g carbohydrates),"Rosen et al., 2011c [89]",Sweden
+122,Whole grain rye bread,Bread,,123.4,SINGLE,73,,"healthy, BMI 23.1; (12 subjects)",101.1g white bread,"Rosen et al., 2009 [88]",Sweden
+123,Whole grain rye bread with lactic acid 18mmol lac/100g flour,Bread,,122.6,SINGLE,71,,"healthy, BMI 23.1; (12 subjects)",101.1g white bread,"Rosen et al., 2009 [88]",Sweden
+124,Whole grain rye bread with lactic acid 90g,Bread,,158.4,SINGLE,75,,"healthy, BMI 22.6; (10 subjects)",124g bread (50g carbohydrates),"Rosén et al., 2011a [86]",Sweden
+125,Whole grain wheat bread,Bread,,165,SINGLE,98,,BMI 22.2; (14 subjects),127g white wheat bread,"Hallström et al., 2011 [94]",Sweden
+126,Whole meal bread (Riga Bakeries),Bread,,101,SINGLE,96,,BMI 23.0; (13 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+127,Whole wheat kernel bread,Bread,,171.9,SINGLE,63,,"healthy, BMI 22.6; (10 subjects)",124g bread (50g carbohydrates),"Rosén et al., 2011a [86]",Sweden
+128,Wholemeal bread,Bread,,134,SINGLE,73,,"healthy, BMI 23.8; (22 subjects)",50g glucose,"Gonzalez-Anton et al., 2015 [85]",Spain
+129,Wholemeal bread (Riga Bakeries Inc),Bread,,101,SINGLE,70,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+130,Whole-meal bread (Riga Bakeries),Bread,,101,SINGLE,96,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+131,Wholemeal rye bread with intact grains and sunflower seeds (Kraftkerni; Lieken Urkorn),Bread,,151.5,SINGLE,70,,"healthy, mean BMI 22.3; (12 subjects)",50g glucose solution,"Goletze et al., 2016 [81]",Germany
+132,Wholemeal spelt wheat bread (Dinkelvollkornbrot),Bread,,136.2,SINGLE,77,,"healthy, mean BMI 22.3; (12 subjects)",50g glucose solution,"Goletze et al., 2016 [81]",Germany
+133,90000IU retinol (Arovit) in 50mL tea + barley cookies (barley flour enriched with betaglucan) + 500mL unsweetened tea,Breakfast / Tea-Time Meals,,85,MIXED MEAL,69.5,,"healthy, BMI 22.6; (10 subjects)",90g white wheat bread,"Casiraghi et al., 2006 [97]",Italy
+134,90000IU retinol (Arovit) in 50mL tea + barley crackers (barley flour enriched with betaglucan) + 500mL unsweetened tea,Breakfast / Tea-Time Meals,,95,MIXED MEAL,88.3,,"healthy, BMI 22.6; (10 subjects)",90g white wheat bread,"Casiraghi et al., 2006 [97]",Italy
+135,90000IU retinol (Arovit) in 50mL tea + whole wheat cookies + 500mL unsweetened tea,Breakfast / Tea-Time Meals,,85,MIXED MEAL,100,,"healthy, BMI 22.6; (10 subjects)",90g white wheat bread,"Casiraghi et al., 2006 [97]",Italy
+136,90000IU retinol (Arovit) in 50mL tea + whole wheat crackers + 500mL unsweetened tea,Breakfast / Tea-Time Meals,,95,MIXED MEAL,129.2,,"healthy, BMI 22.6; (10 subjects)",90g white wheat bread,"Casiraghi et al., 2006 [97]",Italy
+137,"97g bread (Wonder Bread, Interstate Bakeries) + 60g raw, unblanched almonds (California Almonds)",Breakfast / Tea-Time Meals,,157,MIXED MEAL,91,,"healthy, BMI 23.4; (15 subjects)",97g white bread (50g avCHO),"Jenkin et al., 2006 [98]",Canada
+138,All-Bran cereal (245g) + ‡ apple juice (294g),Breakfast / Tea-Time Meals,,539,MIXED MEAL,47,,"healthy, BMI 22.3 (10 or 11 subjects)",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+139,Apple juice + All Bran cereal (Kellogg’s) + 125mL low-fat milk,Breakfast / Tea-Time Meals,,539,MIXED MEAL,40,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+140,Banana + full-fat Milk,Breakfast / Tea-Time Meals,,631,MIXED MEAL,57,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+141,Barley kernels (pot barley; Goudas Food Products) + 150mL water/tea/coffee,Breakfast / Tea-Time Meals,,50g avCHO equivalent,MIXED MEAL,48,,"healthy, BMI 23.8; (10 subjects)",120.9g white wheat bread,"Granfeldt et al., 2006 [99]",Sweden
+142,Barley kernels (pot barley; Goudas Food Products) + 150mL water/tea/coffee,Breakfast / Tea-Time Meals,,50g available starch equivalent,MIXED MEAL,51,,"healthy, BMI 23.8; (10 subjects)",120.9g white wheat bread,"Granfeldt et al., 2006 [99]",Sweden
+143,Croissant + raspberry jam (Cottees) + lemon iced tea (TAISUN),Breakfast / Tea-Time Meals,,329,MIXED MEAL,83,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+144,Dairy low-fat milk + white wheat bread,Breakfast / Tea-Time Meals,,58g + 322mL,MIXED MEAL,107.9,,BMI 21.5; (12 subjects),91.4g white wheat bread,"Sun et al., 2017 [100]",Singapore
+145,"Eggs (159g, poached) + ‡ whole-meal bread (101g)",Breakfast / Tea-Time Meals,,260,MIXED MEAL,53,,"healthy, BMI 22.3 (10 or 11 subjects)",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+146,Endosperm rye porridge,Breakfast / Tea-Time Meals,,227.6,SINGLE,71,,"healthy, BMI 23.1; (12 subjects)",101.1g white bread,"Rosen et al., 2009 [88]",Sweden
+147,Finnish bread + butter + Danish Danbo cheese,Breakfast / Tea-Time Meals,,198,MIXED MEAL,87,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+148,French baguette + butter + jam,Breakfast / Tea-Time Meals,,90,MIXED MEAL,77,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+149,French baguette + chocolate spread,Breakfast / Tea-Time Meals,,80,MIXED MEAL,81,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+150,French bread + butter + jam,Breakfast / Tea-Time Meals,,114,MIXED MEAL,76,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., [96]",Denmark
+151,French toast enriched with bran,Breakfast / Tea-Time Meals,,NA,SINGLE,90,,"healthy, BMI 21.9; (12 subjects)",glucose solution,"Fontvielle et al., 1988 [59]",France
+152,French toast obtained from the same white bread,Breakfast / Tea-Time Meals,,NA,SINGLE,79,,"healthy, BMI 21.9; (12 subjects)",glucose solution,"Fontvielle et al., 1988 [59]",France
+153,German bread + butter + Danish Danbo cheese,Breakfast / Tea-Time Meals,,216,MIXED MEAL,99,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+154,Grain bread (78g) + peanut butter (25g) + 200mL full- fat milk ‡,Breakfast / Tea-Time Meals,,303,MIXED MEAL,44,,"healthy, BMI 22.3 (10 or 11 subjects)",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+155,"Grain bread (Burgen Soy Lin) + peanut butter (smooth, Kraft) + full-fat milk (Dairy Farmers)",Breakfast / Tea-Time Meals,,302.7,MIXED MEAL,42,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+156,Honeydew melon + banana + Ski D’lite low-fat strawberry yoghurt (Dairy Farmers) + apple juice (Berri),Breakfast / Tea-Time Meals,,698,MIXED MEAL,101,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+157,Italian biscuits + coffee + 1.5% fat semi-skimmed milk,Breakfast / Tea-Time Meals,,381,MIXED MEAL,92,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+158,Muesli bar (Uncle Toby’s Inc) + 125mL 1.5%-fat milk,Breakfast / Tea-Time Meals,,63,MIXED MEAL,34,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+159,Oatmeal porridge (Uncle Toby's Company Ltd) + 125mL fat-reduced (1.5% fat) milk,Breakfast / Tea-Time Meals,,383,MIXED MEAL,40,,BMI 22.8; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+160,Panjacks (White Wings Shaker),Breakfast / Tea-Time Meals,,121,SINGLE,58,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+161,Porridge (rolled oats) + apple sauce,Breakfast / Tea-Time Meals,,496,MIXED MEAL,96,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+162,Porridge (Uncle Toby’s Inc) + 125mL 1.5%-fat milk,Breakfast / Tea-Time Meals,,60,MIXED MEAL,29,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+163,Preload dairy low-fat milk + white wheat bread,Breakfast / Tea-Time Meals,,58g + 322mL,MIXED MEAL,77.4,,BMI 21.5; (12 subjects),91.4g white wheat bread,"Sun et al., 2017 [100]",Singapore
+164,Preload sweetened soy milk + white wheat bread,Breakfast / Tea-Time Meals,,58g + 322mL,MIXED MEAL,108.5,,BMI 21.5; (12 subjects),91.4g white wheat bread,"Sun et al., 2017 [100]",Singapore
+165,Raspberry jam (30g) + croissant (85g) + 214mL ‡ iced tea,Breakfast / Tea-Time Meals,,329,MIXED MEAL,113,,"healthy, BMI 22.3 (10 or 11 subjects)",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+166,Raw 1.0mm oat flake meal + 200mL milk with 150mL coffee/tea,Breakfast / Tea-Time Meals,,NA,MIXED MEAL,77,,"healthy, BMI 21; (10 subjects)",116.4g White wheat bread,"Granfeldt et al., 2000 [101]",Sweden
+167,Rice bran soy milk (Sunstar) co-ingested with 89.5g white bread,Breakfast / Tea-Time Meals,,195mL + 89.5g,MIXED MEAL,111.4,,"healthy, BMI 22.5; (15 subjects)",95.8g white bread 9+ 195mL water,"Camps et al., 2018 [102]",Singapore
+168,0.5mm2 Roasted + steamed oat flake meal + 200mL milk with 150mL coffee/tea,Breakfast / Tea-Time Meals,,NA,MIXED MEAL,101,,"healthy, BMI 21; (10 subjects)",116.4g White wheat bread,"Granfeldt et al., 2000 [101]",Sweden
+169,Roasted 0.5mm oat flake meal + 200mL milk with 150mL coffee/tea,Breakfast / Tea-Time Meals,,NA,MIXED MEAL,84,,"healthy, BMI 21; (10 subjects)",116.4g White wheat bread,"Granfeldt et al., 2000 [101]",Sweden
+170,Roasted 1.0mm oat flake meal + 200mL milk with 150mL coffee/tea,Breakfast / Tea-Time Meals,,NA,MIXED MEAL,58,,"healthy, BMI 21; (10 subjects)",116.4g White wheat bread,"Granfeldt et al., 2000 [101]",Sweden
+171,Steamed 0.5mm barley flake meal + 200mL milk with 150mL coffee/tea,Breakfast / Tea-Time Meals,,NA,MIXED MEAL,85,,"healthy, BMI 21; (10 subjects)",116.4g White wheat bread,"Granfeldt et al., 2000 [101]",Sweden
+172,Steamed 1.0mm barley flake meal + 200mL milk with 150mL coffee/tea,Breakfast / Tea-Time Meals,,NA,MIXED MEAL,81,,"healthy, BMI 21; (10 subjects)",116.4g White wheat bread,"Granfeldt et al., 2000 [101]",Sweden
+173,Steamed 1.0mm oat flake meal + 200mL milk with 150mL coffee/tea,Breakfast / Tea-Time Meals,,NA,MIXED MEAL,65,,"healthy, BMI 21; (10 subjects)",116.4g White wheat bread,"Granfeldt et al., 2000 [101]",Sweden
+174,Sugar-free soy milk (F&N) co-ingested with 91.4g white bread,Breakfast / Tea-Time Meals,,195mL + 91.4g,MIXED MEAL,99,,"healthy, BMI 22.5; (15 subjects)",95.8g white bread + 195mL water,"Camps et al., 2018 [102]",Singapore
+175,Sweetened soy milk + white wheat bread,Breakfast / Tea-Time Meals,,58g + 322mL,MIXED MEAL,134.2,,BMI 21.5; (12 subjects),91.4g white wheat bread,"Sun et al., 2017 [100]",Singapore
+176,"The Original Pancake & Waffle Mix (Aunt Jemima, Quaker Oats)",Breakfast / Tea-Time Meals,,132,SINGLE,110,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+177,White wheat bread + butter,Breakfast / Tea-Time Meals,,128,MIXED MEAL,96,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+178,White wheat bread + butter + Danish Danbo cheese,Breakfast / Tea-Time Meals,,194,MIXED MEAL,105,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+179,White wheat bread + butter + jam,Breakfast / Tea-Time Meals,,125,MIXED MEAL,94,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+180,"White wheat bread soaked with 18g white vinegar (6% acetic acid, Druvan) + water/tea/coffee",Breakfast / Tea-Time Meals,,Equivalent to 50g avCHO,MIXED MEAL,108.4,,"healthy, BMI 21.4; (12 subjects)",white wheat bread (50g avaCHO),"Östman et al., 2005 [103]",Sweden
+181,"White wheat bread soaked with 23g white vinegar (6% acetic acid, Druvan) + water/tea/coffee",Breakfast / Tea-Time Meals,,Equivalent to 50g avCHO,MIXED MEAL,94.2,,"healthy, BMI 21.4; (12 subjects)",white wheat bread (50g avCHO),"Östman et al., 2005 [103]",Sweden
+182,"White wheat bread soaked with 28g white vinegar (6% acetic acid, Druvan) + water/tea/coffee",Breakfast / Tea-Time Meals,,Equivalent to 50g avCHO,MIXED MEAL,84.6,,"healthy, BMI 21.4; (12 subjects)",white wheat bread (50g avCHO),"Östman et al., 2005 [103]",Sweden
+183,White wheat porridge,Breakfast / Tea-Time Meals,,273.3,SINGLE,87,,"healthy, BMI 23.1; (12 subjects)",101.1g White bread,"Rosen et al., 2009 [88]",Sweden
+184,Whole grain rye porridge,Breakfast / Tea-Time Meals,,258.2,SINGLE,88,,"healthy, BMI 23.1; (12 subjects)",101.1g White bread,"Rosen et al., 2009 [88]",Sweden
+185,"Whole meal bread (85g) + 1 egg (35g, hard-boiled) + skimmed milk (260mL; Emborg)",Breakfast / Tea-Time Meals,,120g + 260mL,MIXED MEAL,98,,"healthy, BMI 22.4; (14 subjects)",50g glucose in 250mL water; dextrose anhydrous,"Shafaeizadeh et al., 2018 [104]",Singapore
+186,Whole-meal bread (Riga Bakeries) + eggs (poached),Breakfast / Tea-Time Meals,,260,MIXED MEAL,64,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+187,"100% Natural Granola Oats, Honey and Raisins (Quaker Oats Inc) + 125mL 1.5%-fat milk",Cereals & Cereal-Based Food,,55,MIXED MEAL,41,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+188,"7 Wholegrain Puffs (Kashi, La Jolla) + 125mL 1.5%-fat milk",Cereals & Cereal-Based Food,,63,MIXED MEAL,59,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+189,All Bran Cereal (Kellogg’s Australia Pty Ltd) + 125mL fat-reduced (1.5% fat) milk,Cereals & Cereal-Based Food,,174,MIXED MEAL,32,,BMI 22.8; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+190,All Bran Cereal (Kellogg's) + 125mL low-fat milk,Cereals & Cereal-Based Food,,245,MIXED MEAL,32,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+191,All-bran + 1.5% fat semi- skimmed milk,Cereals & Cereal-Based Food,,318,MIXED MEAL,120,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+192,All-Bran Complete Wheat Flakes (Kellogg Foods Inc) + 125mL 1.5%-fat milk,Cereals & Cereal-Based Food,,76,MIXED MEAL,55,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+193,All-Bran Original (Kellogg Foods Inc) + 125mL 1.5%- fat milk,Cereals & Cereal-Based Food,,74,MIXED MEAL,23,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+194,All-bran Plus + 1.5% fat semi-skimmed milk,Cereals & Cereal-Based Food,,419,MIXED MEAL,103,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+195,Alpen original (Weetabix),Cereals & Cereal-Based Food,,80,SINGLE,76,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+196,Cereal-based biscuits/shortbreads A,Cereals & Cereal-Based Food,,62,SINGLE,75.3,,BMI 22.5; (11 subjects),50g glucose,"Ciok et al., 2004 [105]",Poland
+197,Cereal-based biscuits/shortbreads B,Cereals & Cereal-Based Food,,72.2,SINGLE,50.6,,BMI 22.5; (11 subjects),50g glucose,"Ciok et al., 2004 [105]",Poland
+198,Cereal-based biscuits/shortbreads C,Cereals & Cereal-Based Food,,74.4,SINGLE,68.5,,BMI 22.5; (11 subjects),50g glucose,"Ciok et al., 2004 [105]",Poland
+199,Cereal-based biscuits/shortbreads D,Cereals & Cereal-Based Food,,75.7,SINGLE,65.5,,BMI 22.5; (11 subjects),50g glucose,"Ciok et al., 2004 [105]",Poland
+200,Cereal-based biscuits/shortbreads E,Cereals & Cereal-Based Food,,74.6,SINGLE,66.9,,BMI 22.5; (11 subjects),50g glucose,"Ciok et al., 2004 [105]",Poland
+201,Cereal-based biscuits/shortbreads F,Cereals & Cereal-Based Food,,72.4,SINGLE,61.5,,BMI 22.5; (11 subjects),50g glucose,"Ciok et al., 2004 [105]",Poland
+202,Cheerios (General Mills Inc) + 125mL 1.5%-fat milk,Cereals & Cereal-Based Food,,65,MIXED MEAL,63,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+203,Chocapic (Nestle),Cereals & Cereal-Based Food,,60,SINGLE,86,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+204,"Chocolate-coated puffed rice cereal (Coco Pops, Kellogg’s)",Cereals & Cereal-Based Food,,57.1,SINGLE,79,,"healthy, BMI 21.8; (10 subjects)",50 g glucose; anhydrous glucose,"Brand-Miller et al., 2003 [64]",Australia
+205,Corn Flakes,Cereals & Cereal-Based Food,,53.5,SINGLE,67,,"healthy, BMI 25.7; (43 subjects)",55g dextrose or 50g anhydrous glucose,"Wolever et al., 2019 [95]",France
+206,"Cornflakes (Kellogg Foods Inc, Australia) + 125mL 1.5%-fat milk",Cereals & Cereal-Based Food,,64,MIXED MEAL,55,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+207,"Cornflakes (Kellogg Foods Inc, USA) + 125mL 1.5%- fat milk",Cereals & Cereal-Based Food,,67,MIXED MEAL,82,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+208,Cornflakes (Kellogg’s Australia Pty Ltd) + 125mL fat-reduced (1.5% fat) milk,Cereals & Cereal-Based Food,,170,MIXED MEAL,75,,BMI 22.8; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+209,Cornflakes (Kellogg's),Cereals & Cereal-Based Food,,58,SINGLE,69,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+210,Cornflakes + 1.5% fat semi-skimmed milk,Cereals & Cereal-Based Food,,252,MIXED MEAL,94,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+211,Cracklin' Oat Bran (Kellogg Foods Inc) + 125mL 1.5%-fat milk,Cereals & Cereal-Based Food,,58,MIXED MEAL,48,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+212,Energy Mix (Quaker),Cereals & Cereal-Based Food,,58,SINGLE,83,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+213,Extruded product with wheat bran,Cereals & Cereal-Based Food,,75,SINGLE,80,,"healthy, BMI 21.7; (12 subjects)",51g glucose,"Cesbron-Lavau et al., 2021 [106]",France
+214,Extruded product without wheat bran,Cereals & Cereal-Based Food,,72,SINGLE,65,,"healthy, BMI 21.7; (12 subjects)",51g glucose,"Cesbron-Lavau et al., 2021 [106]",France
+215,Frosted Flakes (Kellogg Foods Inc) + 125mL 1.5%- fat milk,Cereals & Cereal-Based Food,,62,MIXED MEAL,72,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+216,Frosties + 1.5% fat semi- skimmed milk,Cereals & Cereal-Based Food,,244,MIXED MEAL,105,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+217,Honey Smacks (Kellogg Foods Inc) + 125mL 1.5%- fat milk,Cereals & Cereal-Based Food,,63,MIXED MEAL,49,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+218,Honeysmacks (Kellogg’s Australia Pty Ltd) + 125mL fat-reduced (1.5% fat) milk),Cereals & Cereal-Based Food,,172,MIXED MEAL,67,,BMI 22.8; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+219,Lucky Charms cereal (General Mills Inc) + 125mL 1.5%-fat milk,Cereals & Cereal-Based Food,,59,MIXED MEAL,69,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+220,Natural muesli (Uncle Toby's Company Ltd) + 125mL fat-reduced (1.5% fat) milk,Cereals & Cereal-Based Food,,175,MIXED MEAL,46,,BMI 22.8; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+221,"Original Shredded Wheat (Post Foods Healthy Classics, Post Foods Inc) + 125mL 1.5%-fat milk",Cereals & Cereal-Based Food,,68,MIXED MEAL,91,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+222,"Plain puffed rice (Rice Bubbles, Kellogg’s)",Cereals & Cereal-Based Food,,58.3,SINGLE,64,,"healthy, BMI 21.8; (10 subjects)",50 g glucose; anhydrous glucose,"Brand-Miller et al., 2003 [64]",Australia
+223,Post Grapenuts (Post Foods Inc) + 125mL 1.5%-fat milk,Cereals & Cereal-Based Food,,69,MIXED MEAL,110,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+224,Post Great Grains (Kraft Foods Inc) + 125mL 1.5%- fat milk,Cereals & Cereal-Based Food,,59,MIXED MEAL,57,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+225,Post Honey Bunches of Oats (Post Foods Inc) + 125mL 1.5%-fat milk,Cereals & Cereal-Based Food,,61,MIXED MEAL,61,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+226,Raisin Bran cereal (Kellogg Foods Inc) + 125mL 1.5%- fat milk,Cereals & Cereal-Based Food,,74,MIXED MEAL,69,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+227,Rice Krispies/Bubbles (Kellogg Foods Inc) + 125mL 1.5%-fat milk,Cereals & Cereal-Based Food,,62,MIXED MEAL,94,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+228,Rolled oats + sugar + 1.5% fat semi-skimmed milk,Cereals & Cereal-Based Food,,230,MIXED MEAL,83,,"healthy, BMI 22.6 (28 subjects)",105g white wheat bread,"Flint et al., 2004 [96]",Denmark
+229,"Special K (Kellogg Foods Inc, Australia) + 125mL 1.5%-fat milk",Cereals & Cereal-Based Food,,63,MIXED MEAL,48,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+230,"Special K (Kellogg Foods Inc, USA) + 125mL 1.5%- fat milk",Cereals & Cereal-Based Food,,63,MIXED MEAL,86,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+231,Special K (Kellogg’s Australia Pty Ltd) + 125mL fat-reduced (1.5% fat) milk),Cereals & Cereal-Based Food,,172,MIXED MEAL,66,,BMI 22.8; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+232,Special K (Kellogg's),Cereals & Cereal-Based Food,,64,SINGLE,97,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+233,Sustain (Kellogg Foods Inc) + 125mL 1.5%-fat milk,Cereals & Cereal-Based Food,,62,MIXED MEAL,52,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+234,Sustain (Kellogg’s Australia Pty Ltd) + 125mL fat- reduced (1.5% fat) milk),Cereals & Cereal-Based Food,,168,MIXED MEAL,71,,BMI 22.8; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+235,Wheaties (General Mills Inc) + 125mL 1.5%-fat milk,Cereals & Cereal-Based Food,,67,MIXED MEAL,78,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+236,Whole grain oat muesli,Cereals & Cereal-Based Food,,84,SINGLE,83,,BMI 21.7; (19 subjects),50g glucose,"Tan et al., 2018 [72]",Singapore
+237,Whole grain oat protein granola,Cereals & Cereal-Based Food,,87,SINGLE,111,,BMI 21.7; (19 subjects),50g glucose,"Tan et al., 2018 [72]",Singapore
+238,Whole grain protein cereal,Cereals & Cereal-Based Food,,99,SINGLE,122,,BMI 21.7; (19 subjects),50g glucose,"Tan et al., 2018 [72]",Singapore
+239,Whole grain triticale (hybrid of wheat & rye) cereal flakes,Cereals & Cereal-Based Food,,103,SINGLE,68,,"healthy, BMI 22.3; (10 subjects)",50g glucose in 250mL water,"Havensone et al., [107]",Latvia
+240,Barquette abricot (LU),"Cookies, Crackers & Biscuits",,65,SINGLE,77,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+241,Chocolate chip cookie (Arnott’s Biscuits Ltd),"Cookies, Crackers & Biscuits",,51,SINGLE,67,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+242,Chocolate chip cookies (Arnott's Biscuits Ltd),"Cookies, Crackers & Biscuits",,51,SINGLE,92,,BMI 23.1; (12 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+243,Chocolate-chip cookies (Arnott’s),"Cookies, Crackers & Biscuits",,49,SINGLE,92,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+244,Cracker,"Cookies, Crackers & Biscuits",,75.9,SINGLE,71,,"healthy, BMI 25.7; (43 subjects)",55g dextrose or 50g anhydrous glucose,"Wolever et al., 2019 [95]",France
+245,Cracker (Triunpho),"Cookies, Crackers & Biscuits",,75,SINGLE,106,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+246,Fat-free oatmeal raisin cookie (Archway Cookies Inc),"Cookies, Crackers & Biscuits",,67,SINGLE,54,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+247,Ginger-bread,"Cookies, Crackers & Biscuits",,68.2,SINGLE,73,,"healthy, BMI 25.7; (43 subjects)",55g dextrose or 50g anhydrous glucose,"Wolever et al., 2019 [95]",France
+248,Gran’Dia - banana com mel (Danone),"Cookies, Crackers & Biscuits",,65,SINGLE,61,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+249,Gran’Dia chocolate com cinque cereals (Danone),"Cookies, Crackers & Biscuits",,69,SINGLE,61,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+250,High-Ca cracker (Jacob's),"Cookies, Crackers & Biscuits",,72,SINGLE,86,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+251,Jatz cracker (Arnott’s Jatz),"Cookies, Crackers & Biscuits",,51,SINGLE,45,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+252,Oro (Saiwa),"Cookies, Crackers & Biscuits",,62,SINGLE,87,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+253,P’tit dejeuner chocolat (LU),"Cookies, Crackers & Biscuits",,73,SINGLE,75,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+254,P’tit dejeuner miel et pepites (LU),"Cookies, Crackers & Biscuits",,71,SINGLE,66,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+255,Petit brun extra (LU),"Cookies, Crackers & Biscuits",,62,SINGLE,75,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+256,"Plain Biscuit, Arrowroot (Arnotts)","Cookies, Crackers & Biscuits",,54,SINGLE,48,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water:,"Bell et al., 2016 [31]",Australia
+257,Prince-gout chocolat (LU),"Cookies, Crackers & Biscuits",,69,SINGLE,77,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+258,Principe megamanana vanilla (LU),"Cookies, Crackers & Biscuits",,69,SINGLE,80,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+259,"Reduced-fat chocolate chip cookie (Chips Ahoy, Kraft Foods Inc)","Cookies, Crackers & Biscuits",,53,SINGLE,49,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+260,Regular chocolate chip cookies (Chips Ahoy),"Cookies, Crackers & Biscuits",,49,SINGLE,33,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+261,Rotary-molded biscuit,"Cookies, Crackers & Biscuits",,67.4,SINGLE,62,,"healthy, BMI 25.7; (43 subjects)",55g dextrose or 50g anhydrous glucose,"Wolever et al., 2019 [95]",France
+262,Rotary-molded biscuit with wheat bran (Mondelez),"Cookies, Crackers & Biscuits",,69,SINGLE,56,,"healthy, BMI 21.7; (12 subjects)",51g glucose,"Cesbron-Lavau et al., 2021 [106]",France
+263,Rotary-molded biscuit without wheat bran (Mondelez),"Cookies, Crackers & Biscuits",,66,SINGLE,54,,"healthy, BMI 21.7; (12 subjects)",51g glucose,"Cesbron-Lavau et al., 2021 [106]",France
+264,Rusk without wheat bran (Mondelez),"Cookies, Crackers & Biscuits",,69,SINGLE,79,,"healthy, BMI 21.7; (12 subjects)",51g glucose,"Cesbron-Lavau et al., 2021 [106]",France
+265,Sandwiched rotary-molded biscuit,"Cookies, Crackers & Biscuits",,63.8,SINGLE,58,,"healthy, BMI 25.7; (43 subjects)",55g dextrose or 50g anhydrous glucose,"Wolever et al., 2019 [95]",France
+266,Sweet biscuit 01 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,69,SINGLE,56,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+267,Sweet biscuit 02 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,69,SINGLE,58,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+268,Sweet biscuit 03 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,72,SINGLE,63,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+269,Sweet biscuit 04 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,69,SINGLE,60.4,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+270,Sweet biscuit 05 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,72,SINGLE,53,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+271,Sweet biscuit 06 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,72,SINGLE,54,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+272,Sweet biscuit 07 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,72,SINGLE,63.1,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+273,Sweet biscuit 08 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,68,SINGLE,57.3,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+274,Sweet biscuit 09 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,69,SINGLE,52,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+275,Sweet biscuit 10 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,73,SINGLE,59.5,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+276,Sweet biscuit 11 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,67,SINGLE,53.6,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+277,Sweet biscuit 12 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,61,SINGLE,49.5,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+278,Sweet biscuit 13 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,72,SINGLE,56.3,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+279,Sweet biscuit 14 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,67,SINGLE,53.4,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+280,Sweet biscuit 15 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,66,SINGLE,62,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+281,Sweet biscuit 16 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,70,SINGLE,51.7,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+282,Sweet biscuit 17 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,62,SINGLE,56.1,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+283,Sweet biscuit 18 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,72,SINGLE,59.2,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+284,Sweet biscuit 19 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,70,SINGLE,51.9,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+285,Sweet biscuit 20 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,69,SINGLE,54,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+286,Sweet biscuit 21 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,70,SINGLE,54,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+287,Sweet biscuit 22 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,69,SINGLE,49,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+288,Sweet biscuit 23 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,70,SINGLE,50,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+289,Sweet biscuit 24 (Danone or its subsidiary),"Cookies, Crackers & Biscuits",,63,SINGLE,59.8,,BMI 22.1; (12 subjects),50g glucose,"Garsetti et al., 2005 [108]",France
+290,The' (LU),"Cookies, Crackers & Biscuits",,64,SINGLE,72,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+291,Tim Tam (Arnotts),"Cookies, Crackers & Biscuits",,46,SINGLE,27,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+292,Veritable petit beurre (LU),"Cookies, Crackers & Biscuits",,67,SINGLE,72,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+293,Vitasnella frollini (Saiwa),"Cookies, Crackers & Biscuits",,61,SINGLE,90,,healthy†; (11 to 14 subjects),50g glucose solution; anhydrous glucose (dextrose),"Englyst et al., 2003 [66]",United Kingdom
+294,Water crackers (Grocery Wholesalers Ltd),"Cookies, Crackers & Biscuits",,58,SINGLE,87,,BMI 23.1; (12 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+295,Water crackers (Grocery Wholesalers Ltd),"Cookies, Crackers & Biscuits",,58,SINGLE,64,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+296,Weetbix (Sanitarium),"Cookies, Crackers & Biscuits",,67,SINGLE,41,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+297,Whole grain biscuit filled with peanut butter,"Cookies, Crackers & Biscuits",,102,SINGLE,74,,BMI 21.7; (19 subjects),50g glucose,"Tan et al., 2018 [72]",Singapore
+298,Whole grain biscuits,"Cookies, Crackers & Biscuits",,82,SINGLE,86,,BMI 21.7; (19 subjects),50g glucose,"Tan et al., 2018 [72]",Singapore
+299,1% fat milk (Dairy Farmers),Dairy Products,,558,SINGLE,34,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+300,93% fat-free cheddar cheese (Dairy Farmers),Dairy Products,,119,SINGLE,20,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+301,Breast milk,Dairy Products,,25g avCHO equivalent,SINGLE,87,,lactating mothers BMI 20-25; (10 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+302,Brie cheese (Coles),Dairy Products,,65,SINGLE,7,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+303,Butter (Western Star Original),Dairy Products,,33,SINGLE,2,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+304,"Cheddar cheese (Grocery- Wholesalers, Coles Supermarkets)",Dairy Products,,59,SINGLE,33,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+305,Chocolate milk (Moove),Dairy Products,,341,SINGLE,46,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+306,Cream (Dairy Farmers),Dairy Products,,72,SINGLE,8,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+307,Cream cheese (Coles Farmland),Dairy Products,,68,SINGLE,18,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+308,Custard (Dairy Farmers),Dairy Products,,233,SINGLE,57,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+309,"Filmjolk (fermented milk, Skanemejerier) + 150mL tea/coffee",Dairy Products,,NA,MIXED MEAL,98,,BMI 23.4; (10 subjects),white wheat bread,"Östman et al., 2001 [109]",Sweden
+310,Full-fat milk,Dairy Products,,352,SINGLE,33,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+311,Full-fat milk (Dairy Farmers),Dairy Products,,200,SINGLE,33,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+312,Lactose solution + 150mL tea/coffee,Dairy Products,,NA,MIXED MEAL,50,,BMI 23.4; (10 subjects),white wheat bread,"Östman et al., 2001 [109]",Sweden
+313,Low-fat cottage cheese (Bulla Dairy Foods),Dairy Products,,264,SINGLE,52,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+314,Low-fat plain kefir (Lifeway Foods),Dairy Products,,479mL (1000kJ),SINGLE,112,,"healthy, BMI 24; (10 subjects)",1000 kJ white bread,"Kong et al., 2012 [110]",United States of America
+315,"Low-fat processed cheese (Kraft free singles, Kraft Foods Ltd)",Dairy Products,,154,SINGLE,42,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+316,Low-fat strawberry kefir (Lifeway Foods),Dairy Products,,331mL (1000kJ),SINGLE,142,,"healthy, BMI 24; (10 subjects)",1000 kJ white bread,"Kong et al., 2012 [110]",United States of America
+317,Low-fat strawberry yoghurt (Dairy Farmers),Dairy Products,,260,SINGLE,84,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+318,Mature cheddar cheese (Grocery Wholesalers Ltd),Dairy Products,,59,SINGLE,45,,BMI 24.3; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+319,Milk (Dairy Farmers),Dairy Products,,368,SINGLE,24,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+320,Milk powder (130g) dissolved in 250mL water,Dairy Products,,250mL,SINGLE,8,,"healthy, BMI 23.4; (12 subjects)",50g glucose; pure glucose,"Nimbe Torres y Torres et al., 2006 [82]",Mexico
+321,"Peach-mango frozen yoghurt (Street Blue Ribbon, Unilever Pty Ltd)",Dairy Products,,181,SINGLE,64,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+322,"Reduced fat (1.5%) cow’s milk (Lite White, NSW Dairy Farmers) + chocolate drinking powder (chocolate Nesquik, Nestle)",Dairy Products,,467,SINGLE,86,,"healthy, BMI 21.8; (10 subjects)",50 g glucose; anhydrous glucose,"Brand-Miller et al., 2003 [64]",Australia
+323,"Reduced-fat (1.5%) cow’s milk (Lite White, NSW Dairy Farmers) + strawberry drinking powder (strawberry Nesquik, Nestle)",Dairy Products,,438,SINGLE,59,,"healthy, BMI 21.8; (10 subjects)",50 g glucose; anhydrous glucose,"Brand-Miller et al., 2003 [64]",Australia
+324,Reduced-fat cottage cheese (Dairy Farmers),Dairy Products,,234,SINGLE,40,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+325,Regular milk (Skanemejerier) + 150mL tea/coffee,Dairy Products,,NA,MIXED MEAL,90,,BMI 23.4; (10 subjects),white wheat bread,"Östman et al., 2001 [109]",Sweden
+326,"Ropy milk (langfil, Arla) + 150mL tea/coffee",Dairy Products,,NA,MIXED MEAL,97,,BMI 23.4; (10 subjects),white wheat bread,"Östman et al., 2001 [109]",Sweden
+327,Skim-fat milk (Dairy Farmers),Dairy Products,,690,SINGLE,60,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+328,Strawberry fruit yoghurt (Dairy Farmer’s),Dairy Products,,241,SINGLE,115,,BMI 22.9; (12 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+329,Yoghurt (plain; Dairy Farmer’s),Dairy Products,,213,SINGLE,46,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+330,"Yoghurt (Ski D’lite low-fat strawberry, Dairy Farmers)",Dairy Products,,300,SINGLE,115,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+331,Acacia fibre (Fibregum),Fibre & Fibre-Based Products,,50,SINGLE,1,,"healthy, BMI 23.4; (12 subjects)",50g pure glucose,"Nimbe Torres y Torres et al., 2006 [82]",Mexico
+332,Plantaben (10.5g Ispaghula Husk) in 50g glucose solution (150mL),Fibre & Fibre-Based Products,,60.5g in 150mL,SINGLE,64,,"healthy, normal BMI; (10 subjects)",50g glucose,"Sierra et al., 2001, [111]",Spain
+333,Plantaguar (10.5g Guar Gum) in 50g glucose solution (150mL),Fibre & Fibre-Based Products,,60.5g in 150mL,SINGLE,60.6,,"healthy, normal BMI; (10 subjects)",50g glucose,"Sierra et al., 2001, [111]",Spain
+334,Corinthian raisins,Fruit Products,,74,SINGLE,70,,"healthy, BMI 21.3; (15 subjects)",50g glucose,"Kanellos et al., 2013 [112]",Greece
+335,Olive oil,Fruit Products,,27,SINGLE,3,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+336,Peaches canned in juice (SPC Ardmona),Fruit Products,,485,SINGLE,54,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+337,Peaches canned in syrup (SPC Ardmona),Fruit Products,,346,SINGLE,65,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+338,Raisins (Sunbeam Foods),Fruit Products,,19.8,SINGLE,42,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+339,Raspberry jam (Cottees),Fruit Products,,88,SINGLE,62,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+340,Raspberry jam (Cottees),Fruit Products,,30,SINGLE,85,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+341,Seedless raisins (Sunbeam Food),Fruit Products,,72,SINGLE,31,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+342,Apple,Fruits,,NA,SINGLE,45.9,,healthy; (13 subjects),50g glucose,"Ryu et al., 2012 [113]",Korea
+343,Apples (Red Delicious),Fruits,,435,SINGLE,59,,BMI 22.9; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+344,Avocado,Fruits,,40,SINGLE,6,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+345,Avocado (peeled),Fruits,,112,SINGLE,4,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+346,Banana,Fruits,,98,SINGLE,81,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+347,Banana,Fruits,,279,SINGLE,81,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+348,Banana (Cavendish),Fruits,,279,SINGLE,81,,BMI 22.9; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+349,Banana (peeled),Fruits,,279,SINGLE,59,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+350,Black grapes,Fruits,,395,SINGLE,60,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+351,Black grapes (Waltham cross),Fruits,,395,SINGLE,82,,BMI 22.9; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+352,Grape,Fruits,,NA,SINGLE,72.2,,healthy; (13 subjects),50g glucose,"Ryu et al., 2012 [113]",Korea
+353,Honey dew melon,Fruits,,714,SINGLE,93,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+354,Honeydew melon,Fruits,,100,SINGLE,127,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+355,Orange (peeled),Fruits,,625,SINGLE,44,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+356,Oranges (Navel),Fruits,,625,SINGLE,60,,BMI 22.9; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+357,Oriental melon,Fruits,,NA,SINGLE,115.5,,healthy; (13 subjects),50g glucose,"Ryu et al., 2012 [113]",Korea
+358,Peach,Fruits,,NA,SINGLE,79.7,,healthy; (13 subjects),50g glucose,"Ryu et al., 2012 [113]",Korea
+359,Peach (raw; Australia),Fruits,,565,SINGLE,39,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+360,Pear,Fruits,,NA,SINGLE,44.5,,healthy; (13 subjects),50g glucose,"Ryu et al., 2012 [113]",Korea
+361,Persimmon,Fruits,,NA,SINGLE,47.1,,healthy; (13 subjects),50g glucose,"Ryu et al., 2012 [113]",Korea
+362,Red Apple (Red Delicious),Fruits,,435,SINGLE,43,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+363,Tangerine,Fruits,,NA,SINGLE,60.2,,healthy; (13 subjects),50g glucose,"Ryu et al., 2012 [113]",Korea
+364,Watermelon,Fruits,,NA,SINGLE,83.7,,healthy; (13 subjects),50g glucose,"Ryu et al., 2012 [113]",Korea
+365,"Apple-pear porridge (rice flour, wheat flour, skim milk powder, apple and pear juice, dried apple) + 50mL milk (3% fat) + 150mL coffee/tea",Infant Formulae / Food,,NA,MIXED MEAL,122,,"healthy, BMI 23.1; (10 subjects)",70.7g white wheat bread,"Nilsson et al., 2005 [114]",Sweden
+366,Follow-on formula milk (Nutricia Karicare Follow On),Infant Formulae / Food,,25g avCHO equivalent,SINGLE,110,,BMI 23.3; (11 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+367,Follow-on formula milk (Wyeth S-26 Gold Progress),Infant Formulae / Food,,25g avCHO equivalent,SINGLE,94,,lactating mothers BMI 20-25; (10 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+368,Follow-on formula milk (Wyeth S-26 Gold Progress),Infant Formulae / Food,,25g avCHO equivalent,SINGLE,89,,BMI 23.3; (11 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+369,Follow-on formula milk (Wyeth S-26 Gold Toddler),Infant Formulae / Food,,25g avCHO equivalent,SINGLE,53,,BMI 23.3; (11 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+370,Formula milk for special medical needs (Novalac Colic),Infant Formulae / Food,,25g avCHO equivalent,SINGLE,142,,BMI 23.3; (11 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+371,Formula milk for special medical needs (Novalac Reflux),Infant Formulae / Food,,25g avCHO equivalent,SINGLE,96,,BMI 23.3; (11 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+372,Formula milk for special medical needs (Novalac Sweet Dreams),Infant Formulae / Food,,25g avCHO equivalent,SINGLE,152,,BMI 23.3; (11 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+373,Formula milk for special medical needs (Nutricia Karicare DeLact),Infant Formulae / Food,,25g avCHO equivalent,SINGLE,138,,BMI 23.3; (11 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+374,Formula milk for special medical needs (Nutricia Karicare Soy),Infant Formulae / Food,,25g avCHO equivalent,SINGLE,209,,BMI 23.3; (11 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+375,Formula milk for special medical needs (Wyeth S-26 Gold PremGro),Infant Formulae / Food,,25g avCHO equivalent,SINGLE,97,,BMI 23.3; (11 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+376,"Fruit porridge (skim milk powder, whole-meal wheat flour, pear juice, oat flour, rice flour, wheat flour, banana powder, dried plums, maize starch) + 50mL milk (3% fat) + 150mL coffee/tea",Infant Formulae / Food,,NA,MIXED MEAL,149,,"healthy, BMI 23.1; (10 subjects)",70.7g white wheat bread,"Nilsson et al., 2005 [114]",Sweden
+377,Infant formula milk (Nutricia Karicare from Birth),Infant Formulae / Food,,25g avCHO equivalent,SINGLE,94,,BMI 23.3; (11 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+378,Infant formula milk (Wyeth S-26 Gold Newborn),Infant Formulae / Food,,25g avCHO equivalent,SINGLE,80,,BMI 23.3; (11 subjects),25g glucose,"Wright et al., 2015 [62]",Australia
+379,"Model product (rice flour, wheat flour, skim milk powder) + 50mL milk (3% fat) + 150mL coffee/tea",Infant Formulae / Food,,NA,MIXED MEAL,118,,"healthy, BMI 23.1; (10 subjects)",70.7g white wheat bread,"Nilsson et al., 2005 [114]",Sweden
+380,"Rice porridge (rice flour, skim milk powder, whey powder) + 50mL milk (3% fat) + 150mL coffee/tea",Infant Formulae / Food,,NA,MIXED MEAL,134,,"healthy, BMI 23.1; (10 subjects)",70.7g white wheat bread,"Nilsson et al., 2005 [114]",Sweden
+381,"Wholemeal flour gruel (skim milk powder, whole- meal wheat flour, rye flour, whey powder, rice flour, wheat flour, apple juice, oat flour, pear juice) + 150mL coffee/tea",Infant Formulae / Food,,300mL,MIXED MEAL,110,,"healthy, BMI 23.1; (10 subjects)",70.7g white wheat bread,"Nilsson et al., 2005 [114]",Sweden
+382,4 Bean Mix (Edgells),"Legumes, Pulse Products & Dishes",,201,SINGLE,34,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+383,Baked beans (canned navy beans in tomato sauce; Franklins),"Legumes, Pulse Products & Dishes",,351,SINGLE,120,,BMI 24.3; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+384,Baked beans (Franklins Supermarkets),"Legumes, Pulse Products & Dishes",,351,SINGLE,88,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+385,"Boiled lentils in tomato sauce (15mL olive oil, 350g dried green lentils, 410g canned tomatoes, 120g onion, 1 clove garlic, and 1 teaspoon pepper)","Legumes, Pulse Products & Dishes",,253,SINGLE,58,,BMI 24.3; (11 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+386,Canned navy beans (Eden Organic),"Legumes, Pulse Products & Dishes",,281,SINGLE,23,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+387,"Lentils (15mL olive oil, 350g dried green lentils, 410g canned tomatoes, 120g onion, 1 clove garlic, 1 teaspoon pepper)","Legumes, Pulse Products & Dishes",,253,SINGLE,58,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+388,"Lentils served with tomato sauce (15mL olive oil, 350g dried green lentils, 410g canned tomatoes, 120g onion, 1 clove garlic, 1 teaspoon pepper)","Legumes, Pulse Products & Dishes",,253,SINGLE,42,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+389,100% durum semolina spaghetti (Unico) + 150mL water/tea/coffee,Lunch / Dinner Meals (Non-Rice),,50g avCHO equivalent,MIXED MEAL,55,,"healthy, BMI 23.8; (10 subjects)",120.9g white wheat bread,"Granfeldt et al., 2006 [99]",Sweden
+390,Beef lasagne (Sara Lee Bakery Pty Ltd),Lunch / Dinner Meals (Non-Rice),,164,SINGLE,34,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+391,Beef meat pie (Four’n’Twenty),Lunch / Dinner Meals (Non-Rice),,104,SINGLE,41,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+392,Beef steak (158g) + ‡ potatoes (368g),Lunch / Dinner Meals (Non-Rice),,526,MIXED MEAL,88,,"healthy, BMI 22.3; (10 or 11 subjects)",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+393,"Beef steak + potatoes (Russet, peeled and boiled for 20 minutes)",Lunch / Dinner Meals (Non-Rice),,526,MIXED MEAL,86,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+394,"Beef taco (seasoned beef mince, lettuce, tomato, and Kraft-Coon-Light & Tasty cheese; Casa Fiesta, Bruce Foods Ltd)",Lunch / Dinner Meals (Non-Rice),,138,SINGLE,24,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+395,Coleslaw (Coles Supermarkets Ltd),Lunch / Dinner Meals (Non-Rice),,252,SINGLE,20,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+396,Pasta (201g) + lentils ‡ (253g),Lunch / Dinner Meals (Non-Rice),,454,MIXED MEAL,45,,"healthy, BMI 22.3; (10 or 11 subjects)",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+397,"Pasta (white spiral pasta, San Remo) + lentils (15mL olive oil, 350g dried green lentils, 410g canned tomatoes, 120g onion, 1 clove garlic, 1 teaspoon pepper)",Lunch / Dinner Meals (Non-Rice),,454,MIXED MEAL,49,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+398,Pizza (90g) + Coca-Cola (583g) ‡,Lunch / Dinner Meals (Non-Rice),,673,MIXED MEAL,85,,"healthy, BMI 22.3; (10 or 11 subjects)",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+399,Pizza (McCain Foods); tomato paste (Leggo); shredded mozzarella cheese (Perfect Italiano) + Coca- Cola,Lunch / Dinner Meals (Non-Rice),,673,MIXED MEAL,62,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+400,Pizza (McCain’s),Lunch / Dinner Meals (Non-Rice),,90,SINGLE,47,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+401,Pizza (Pizza base: white- flour pizza base (McCain’s); tomato paste (Leggo); shredded mozzarella cheese (Perfect Italiano)),Lunch / Dinner Meals (Non-Rice),,90,SINGLE,64,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+402,Roast chicken (75g) + avocado (40g) + grain ‡ bread (97g),Lunch / Dinner Meals (Non-Rice),,212,MIXED MEAL,51,,"healthy, BMI 22.3; (10 or 11 subjects)",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+403,Roast chicken + grain bread + avocado,Lunch / Dinner Meals (Non-Rice),,212.1,MIXED MEAL,44,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+404,"60g parboiled rice (Uncle Bens Converted, Mars) + 68g medium cheddar cheese (Black Diamond, Parmalat) + 14g unsalted butter (Gay Lea, Gay Lea Foods)",Lunch / Dinner Meals (Rice),,142,MIXED MEAL,73,,"healthy, BMI 23.4; (15 subjects)",97g white bread (50g avCHO),"Jenkin et al., 2006 [98]",Canada
+405,Plain white rice (Thai Hom Mali fragrant rice) + 100g chicken breast,Lunch / Dinner Meals (Rice),,294,MIXED MEAL,89,,BMI 20.1; (12 subjects),50g glucose,"Sun et al., 2014 [73]",Singapore
+406,Plain white rice (Thai Hom Mali fragrant rice) + 120g leafy vegetable (Shanghai bok choy),Lunch / Dinner Meals (Rice),,314,MIXED MEAL,54,,BMI 20.1; (12 subjects),50g glucose,"Sun et al., 2014 [73]",Singapore
+407,Rice + peas + soy sauce + organic kombucha (The Good Brew Company),Lunch / Dinner Meals (Rice),,177.1g + 330mL,MIXED MEAL,70,,"healthy, BMI 22.6; (11 subjects)",glucose 54.9g (sugar 50g); glucodin,"Atkinson et al., 2023 [58]",Australia
+408,Rice + peas + soy sauce + soda water (Schweppes),Lunch / Dinner Meals (Rice),,177.1g + 330mL,MIXED MEAL,85,,"healthy, BMI 22.6; (11 subjects)",glucose 54.9g (sugar 50g); glucodin,"Atkinson et al., 2023 [58]",Australia
+409,Rice + peas + soy sauce + zero sugar lemonade (Schweppes),Lunch / Dinner Meals (Rice),,177.1g + 330mL,MIXED MEAL,81,,"healthy, BMI 22.6; (11 subjects)",glucose 54.9g (sugar 50g); glucodin,"Atkinson et al., 2023 [58]",Australia
+410,Tuna (110g) + white rice (222g) + corn (45g) ‡,Lunch / Dinner Meals (Rice),,377,MIXED MEAL,68,,"healthy, BMI 22.3 (10 or 11 subjects)",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+411,Tuna (Tuna Chunks in Oil; Coles) + white rice (SunRice) + corn (McCain Super Juicy frozen corn),Lunch / Dinner Meals (Rice),,376.7,MIXED MEAL,53,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+412,White rice (Thai Hom Mali fragrant rice) cooked with 30g ground nut oil (Cock brand),Lunch / Dinner Meals (Rice),,254,MIXED MEAL,68,,BMI 20.1; (12 subjects),50g glucose,"Sun et al., 2014 [73]",Singapore
+413,White rice (Thai Hom Mali fragrant rice) cooked with 30g ground nut oil (Cock brand) + 100g chicken breast + 120g leafy vegetable (Shanghai bok choy),Lunch / Dinner Meals (Rice),,474,MIXED MEAL,70,,BMI 20.1; (12 subjects),50g glucose,"Sun et al., 2014 [73]",Singapore
+414,Adlay,Non-Rice Grains & Non-Rice Grains Products,,NA,SINGLE,67,,BMI 20.6; (10 subjects),white bread,"Lin et al., 2010 [115]",China
+415,Modified wheat flakes,Non-Rice Grains & Non-Rice Grains Products,,77,SINGLE,85,,"healthy, BMI 21.4; (11 subjects)",89.3g white wheat bread,"Lioger et al., 2009 [116]",France
+416,Standard wheat flakes,Non-Rice Grains & Non-Rice Grains Products,,70,SINGLE,96,,"healthy, BMI 21.4; (11 subjects)",89.3g white wheat bread,"Lioger et al., 2009 [116]",France
+417,Tofu (Soyco),Non-Rice Grains & Non-Rice Grains Products,,227,SINGLE,21,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+418,"Tortilla (white, corn; San Diego Tortilla Factory)",Non-Rice Grains & Non-Rice Grains Products,,104,SINGLE,36,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+419,Clinutren HP (enteral formula of whole protein of high protein value),"Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,333mL,SINGLE,104.6,,"healthy, BMI 24.6; (38 subjects)",bread,"Gattas et al., 2007 [117]",Chile
+420,Commercial liquid-based milk for pregnant women + water,"Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,86.2g + 346mL,SINGLE,52.5,,"healthy, BMI 22.4; (14 subjects)",glucose 50g in 250mL water; dextrose anhydrous,"Shafaeizadeh et al., 2018 [104]",Singapore
+421,Crucial (casein peptide based enteral formula),"Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,370mL,SINGLE,113,,"healthy, BMI 24.6; (38 subjects)",bread,"Gattas et al., 2007 [117]",Chile
+422,"Dried fig fruit extract (ABALife™, Euromed) 10× (1200 mg) in glucose drink (50g in 250mL water)","Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,NA,SINGLE,76,,"healthy, BMI 22.1; (10 subjects)",50g glucose drink,"Atkinson et al., 2019 [60]",Australia
+423,"Dried fig fruit extract (ABALife™, Euromed) 10× (600 mg) in glucose drink (50g in 250mL water)","Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,NA,SINGLE,84,,"healthy, BMI 22.1; (10 subjects)",50g glucose drink,"Atkinson et al., 2019 [60]",Australia
+424,"Dried fig fruit extract (ABALife™, Euromed) 50× (100 mg) in glucose drink (50g in 250mL water)","Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,NA,SINGLE,86,,"healthy, BMI 22.1; (10 subjects)",50g glucose drink,"Atkinson et al., 2019 [60]",Australia
+425,"Dried fig fruit extract (ABALife™, Euromed) 50× (200 mg) in glucose drink (50g in 250mL water)","Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,NA,SINGLE,76,,"healthy, BMI 22.1; (10 subjects)",50g glucose drink,"Atkinson et al., 2019 [60]",Australia
+426,Energy bar,"Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,96.7,SINGLE,61,,"healthy, BMI 22.7; (10 subjects)",50g glucose,"Wright et al., 2014 [63]",Australia
+427,Energy bar + filtered molasses concentrate (2g),"Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,100.2,MIXED MEAL,63,,"healthy, BMI 22.7; (10 subjects)",50g glucose,"Wright et al., 2014 [63]",Australia
+428,Enteral nutrition (Nutridrink) containing 50g of saccharides,"Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,272mL,SINGLE,114.15,,healthy; (10 subjects),50g glucose,"Visek et al., 2007 [74]",Czech Republic
+429,Enteral nutrition with fibre 2.3g/100mL (Nutridrink Multifibre) containing 50g of saccharides,"Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,272mL,SINGLE,104.1,,healthy; (10 subjects),50g glucose,"Visek et al., 2007 [74]",Czech Republic
+430,Liquid concept product enriched with PUFA for pregnant women,"Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,427mL,SINGLE,71.5,,"healthy, BMI 22.4; (14 subjects)",50g glucose in 250mL water; dextrose anhydrous,"Shafaeizadeh et al., 2018 [104]",Singapore
+431,Liquid protein drink supplement,"Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,220kcal (2g carbohydrate),SINGLE,88,,"healthy, no info; (12 subjects)",50g glucose,"Parcell et al., 2004 [69]",United States of America
+432,Peptamen (whey peptide based enteral formula),"Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,300mL,SINGLE,158.2,,"healthy, BMI 24.6; (38 subjects)",bread,"Gattas et al., 2007 [117]",Chile
+433,Solid protein bar,"Nutritional Support Products, Meal Replacement Food, Formulae & Bars",,250kcal (3g carbohydrate),SINGLE,90,,"healthy, no info; (12 subjects)",50g glucose,"Parcell et al., 2004 [69]",United States of America
+434,100% durum wheat pasta (spaghetti) dried at low temperature,Pasta & Noodles,,180,SINGLE,45.7,,"healthy, BMI 22.4 (15 subjects)",50g glucose in 250mL water,"Greffeuille et al., 2015 [118]",France
+435,Brown pasta (boiled; Sam Remo Inc),Pasta & Noodles,,218,SINGLE,29,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+436,"Brown pasta (whole-meal spirals, San Remo Pasta Company)",Pasta & Noodles,,218,SINGLE,40,,BMI 23.0; (13 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+437,Hokkien noodles (Kan Tong),Pasta & Noodles,,149,SINGLE,22,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+438,"Mung bean noodles (boiled; glass or cellophane noodles, Longkow)",Pasta & Noodles,,NA,SINGLE,38,,BMI 20.6; (10 subjects),white bread,"Lin et al., 2010 [115]",China
+439,Noodles (boiled; Goto- udon) + soup,Pasta & Noodles,,170,MIXED MEAL,22,,BMI 20.3; (12 subjects),50g glucose,"Oku et al., 2010 [71]",Japan
+440,Noodles (boiled; Katokichi- udon) + soup,Pasta & Noodles,,172,MIXED MEAL,46,,BMI 20.3; (12 subjects),50g glucose,"Oku et al., 2010 [71]",Japan
+441,Noodles (boiled; Simabara- udon) + soup,Pasta & Noodles,,170,MIXED MEAL,22,,BMI 20.3; (12 subjects),50g glucose,"Oku et al., 2010 [71]",Japan
+442,Pasta (spaghetti) enriched with 35% faba bean flour dried at a low temperature,Pasta & Noodles,,195,SINGLE,50.1,,"healthy, BMI 22.4 (15 subjects)",50g glucose in 250mL water,"Greffeuille et al., 2015 [118]",France
+443,Pasta (spaghetti) enriched with 35% faba bean flour dried at a very high temperature,Pasta & Noodles,,206,SINGLE,55,,"healthy, BMI 22.4 (15 subjects)",50g glucose in 250mL water,"Greffeuille et al., 2015 [118]",France
+444,"Pasta (white spiral pasta, San Remo)",Pasta & Noodles,,201,SINGLE,40,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+445,Semolina spaghetti (Barilla),Pasta & Noodles,,71,SINGLE,46,§,"healthy, BMI 22.6; (27 subjects)",50g anhydrous glucose dissolved in 250mL water); anhydrous glucose,"Camps et al., 2021 [119]",Singapore
+446,Teochew mee pok noodles (Fortune),Pasta & Noodles,,92.4,SINGLE,61.5,§,"healthy, BMI 22.6; (27 subjects)",50g anhydrous glucose dissolved in 250mL water); anhydrous glucose,"Camps et al., 2021 [119]",Singapore
+447,"White pasta (boiled; spiral, Sam Remo)",Pasta & Noodles,,201,SINGLE,29,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+448,White pasta (spirals),Pasta & Noodles,,201,SINGLE,40,,BMI 23.0; (13 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+449,Wholegrain (wholewheat) spaghetti (Barilla),Pasta & Noodles,,76,SINGLE,55.1,§,"healthy, BMI 22.6; (27 subjects)",50g anhydrous glucose dissolved in 250mL water); anhydrous glucose,"Camps et al., 2021 [119]",Singapore
+450,"68g instant mashed potatoes (McCain, McCain Foods) + 62g medium cheddar cheese (Black Diamond, Parmalat) + 16g unsalted butter (Gay Lea, Gay Lea Foods)",Potatoes & Potato-Based Meals,,146,MIXED MEAL,171,,"healthy, BMI 23.4 (15 subjects)",97g white bread (50g CHO),"Jenkin et al., 2006 [98]",Canada
+451,French fries (McCain’s Foods Inc),Potatoes & Potato-Based Meals,,93,SINGLE,54,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+452,French fries (McDonald’s),Potatoes & Potato-Based Meals,,76,SINGLE,57,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+453,"French fries (oven-baked; McCain's Foods, Australia)",Potatoes & Potato-Based Meals,,93,SINGLE,74,,BMI 23.0; (13 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+454,"Potato (peeled, boiled; Russet)",Potatoes & Potato-Based Meals,,368,SINGLE,88,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+455,Potato (steamed; Ainoaka),Potatoes & Potato-Based Meals,,284,SINGLE,97,,BMI 20.3; (12 subjects),50g glucose,"Oku et al., 2010 [71]",Japan
+456,Potato (steamed; Dejima),Potatoes & Potato-Based Meals,,284,SINGLE,47,,BMI 20.3; (12 subjects),50g glucose,"Oku et al., 2010 [71]",Japan
+457,Potato (steamed; Nishiyutaka),Potatoes & Potato-Based Meals,,284,SINGLE,75,,BMI 20.3; (12 subjects),50g glucose,"Oku et al., 2010 [71]",Japan
+458,"Potatoes (boiled and cold stored at 8°C for 24 hours; Sava) + vinaigrette sauce (8g olive oil (Zeta) + 28g white vinegar (6% acetic acid, Druvan)) + water/tea/coffee",Potatoes & Potato-Based Meals,,Equivalent to 50g avCHO,MIXED MEAL,128,,"healthy, BMI 22.5; (13 subjects)",white wheat bread (50g avCHO),"Leeman et al., 2005 [120]",Sweden
+459,Potatoes (boiled and cold stored at 8°C for 24 hours; Sava) + water/tea/coffee,Potatoes & Potato-Based Meals,,Equivalent to 50g avCHO,MIXED MEAL,134,,"healthy, BMI 22.5; (13 subjects)",white wheat bread (50g avCHO),"Leeman et al., 2005 [120]",Sweden
+460,Potatoes (boiled; Russet),Potatoes & Potato-Based Meals,,368,SINGLE,121,,BMI 23.0; (13 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+461,Potatoes (freshly boiled; Sava) + water/tea/coffee,Potatoes & Potato-Based Meals,,Equivalent to 50g avCHO,MIXED MEAL,185,,"healthy, BMI 22.5; (13 subjects)",white wheat bread (50g avCHO),"Leeman et al., 2005 [120]",Sweden
+462,Potatoes (peeled and boiled for 20 minutes; Russet),Potatoes & Potato-Based Meals,,368,SINGLE,121,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+463,Sweet potato (orange; peeled and steamed),Potatoes & Potato-Based Meals,,313,SINGLE,96,*,"healthy, BMI 19-25; (10 to 11 subjects)",300 kJ glucose,"Bell et al., 2016 [31]",Australia
+464,Yam (steamed; Chinese sweet potato),Potatoes & Potato-Based Meals,,NA,SINGLE,64,,BMI 20.6; (10 subjects),white bread,"Lin et al., 2010 [115]",China
+465,Acid-added sorghum porridge,Regional / Traditional Food,,NA,SINGLE,118.2,,"healthy, BMI 22.7; (10 subjects)",white bread,"Mbhenyane et al., 2001[121]",South Africa
+466,Amala (yam flour paste) + plain ewedu soup (without stew),Regional / Traditional Food,,215,MIXED MEAL,56.2,,"healthy, BMI 22.0; (12 subjects)",50g glucose,"Akinlade et al., 2017 [122]",Nigeria
+467,Bean stew + plantain,Regional / Traditional Food,,NA,MIXED MEAL,47.09,,BMI 22.32; (10 subjects),75g glucose,"Mbanya et al., 2003 [123]",Cameroon
+468,Brown cowpea (boiled),Regional / Traditional Food,,325,SINGLE,110.2,,"healthy, BMI 22.0; (12 subjects)",50g glucose,"Akinlade et al., 2017 [122]",Nigeria
+469,Cassava chips (Abacha),Regional / Traditional Food,,133.6,SINGLE,97.02,,"healthy, BMI 25.22; (65 subjects)",50 g glucose,"Myke-Mbata et al., 2021 [124]",Nigeria
+470,Cassava dough (Fufu),Regional / Traditional Food,,133.6,SINGLE,55.83,,"healthy, BMI 25.22; (65 subjects)",50 g glucose,"Myke-Mbata et al., 2021 [124]",Nigeria
+471,Cassava flakes (Garri),Regional / Traditional Food,,190,SINGLE,69.36,,"healthy, BMI 25.22; (65 subjects)",50 g glucose,"Myke-Mbata et al., 2021 [124]",Nigeria
+472,Chickpea salad dip (main CHO - legume seeds),Regional / Traditional Food,,237,SINGLE,43.1,,"healthy, BMI 22.8; (12 subjects)",50g glucose in 350mL water; anhydrous D- glucose,"Mehio et al., 1997 [125]",United States of America
+473,Chinese steamed white bun,Regional / Traditional Food,,88,SINGLE,76,,BMI 21.7; (19 subjects),50g glucose,"Tan et al., 2018 [72]",Singapore
+474,Couscous,Regional / Traditional Food,,67,SINGLE,84,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+475,Dates (Khulas variety) + 180mL Arabic coffee without sugar,Regional / Traditional Food,,82,MIXED MEAL,62,,"healthy, BMI 24.0; (10 subjects)",50g glucose in 250mL water; pure glucose,"Al-Mssallem et al., 2013 [126]",Saudi Arabia
+476,Dates (Khulas variety) + 180mL water,Regional / Traditional Food,,82,MIXED MEAL,64,,"healthy, BMI 24.0; (10 subjects)",50g glucose in 250mL water; pure glucose,"Al-Mssallem et al., 2013 [126]",Saudi Arabia
+477,Dried bean stew,Regional / Traditional Food,,NA,SINGLE,133.7,,"healthy, BMI 22.7; (10 subjects)",white bread,"Mbhenyane et al., 2001[121]",South Africa
+478,Fermented sorghum porridge,Regional / Traditional Food,,NA,SINGLE,179.4,,"healthy, BMI 22.7; (10 subjects)",white bread,"Mbhenyane et al., 2001[121]",South Africa
+479,Foo-foo corn + Ndole (vegetable soup),Regional / Traditional Food,,NA,MIXED MEAL,40.19,,BMI 22.32; (10 subjects),75g glucose,"Mbanya et al., 2003 [123]",Cameroon
+480,Kibbeh saynieh (main CHO - parboiled wheat and onion),Regional / Traditional Food,,156.5,SINGLE,59.9,,"healthy, BMI 22.8; (12 subjects)",50g glucose in 350mL water; anhydrous D- glucose,"Mehio et al., 1997 [125]",United States of America
+481,Koki beans + cassava,Regional / Traditional Food,,NA,MIXED MEAL,46.75,,BMI 22.32; (10 subjects),75g glucose,"Mbanya et al., 2003 [123]",Cameroon
+482,Mabella porridge (no sugar),Regional / Traditional Food,,NA,SINGLE,137,,"healthy, BMI 22.7; (10 subjects)",white bread,"Mbhenyane et al., 2001[121]",South Africa
+483,Mabella porridge with sugar,Regional / Traditional Food,,NA,SINGLE,87.8,,"healthy, BMI 22.7; (10 subjects)",white bread,"Mbhenyane et al., 2001[121]",South Africa
+484,Middle Eastern bread (white bread),Regional / Traditional Food,,85.8,SINGLE,81.6,,"healthy, BMI 22.8; (12 subjects)",50g glucose in 350mL water; anhydrous D- glucose,"Mehio et al., 1997 [125]",United States of America
+485,Rice + tomato soup,Regional / Traditional Food,,NA,MIXED MEAL,70.91,,BMI 22.32; (10 subjects),75g glucose,"Mbanya et al., 2003 [123]",Cameroon
+486,Rice bran arepa (corn meal supplemented with 20% rice bran),Regional / Traditional Food,,50g avCHO equivalent,SINGLE,56.59,,"healthy, BMI normal; (10 subjects)",white wheat bread,"Schnell et al., 2005 [75]",Venezuela
+487,Rice dosa,Regional / Traditional Food,,193,SINGLE,114,,BMI 21.7; (19 subjects),50g glucose,"Tan et al., 2018 [72]",Singapore
+488,Rice idli,Regional / Traditional Food,,162,SINGLE,114,,BMI 21.7; (19 subjects),50g glucose,"Tan et al., 2018 [72]",Singapore
+489,Samp,Regional / Traditional Food,,NA,SINGLE,153,,"healthy, BMI 22.7; (10 subjects)",white bread,"Mbhenyane et al., 2001[121]",South Africa
+490,Samp + beans,Regional / Traditional Food,,NA,MIXED MEAL,83.8,,"healthy, BMI 22.7; (10 subjects)",white bread,"Mbhenyane et al., 2001[121]",South Africa
+491,Soft mealiemeal porridge (no sugar),Regional / Traditional Food,,NA,SINGLE,117.7,,"healthy, BMI 22.7; (10 subjects)",white bread,"Mbhenyane et al., 2001[121]",South Africa
+492,Soft mealiemeal porridge with sugar,Regional / Traditional Food,,NA,SINGLE,135.3,,"healthy, BMI 22.7; (10 subjects)",white bread,"Mbhenyane et al., 2001[121]",South Africa
+493,Stiff mealiemeal porridge + dried bean leaf stew,Regional / Traditional Food,,NA,MIXED MEAL,98.2,,"healthy, BMI 22.7; (10 subjects)",white bread,"Mbhenyane et al., 2001[121]",South Africa
+494,Stiff mealiemeal porridge + nkaka (an African medicinal plant),Regional / Traditional Food,,NA,MIXED MEAL,76.4,,"healthy, BMI 22.7; (20 subjects)",white bread,"Mbhenyane et al., 2001[121]",South Africa
+495,Stuffed grape leaves (main CHO - rice and tomato sauce),Regional / Traditional Food,,570,SINGLE,103.9,,"healthy, BMI 22.8; (12 subjects)",50g glucose in 350mL water; anhydrous D- glucose,"Mehio et al., 1997 [125]",United States of America
+496,"Sushi, chicken roll (I Love Sushi)",Regional / Traditional Food,,160,SINGLE,48,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+497,Taco (30g corn tortilla) + cooked potato (62g) + watermelon (200g) + honey (1.5 teaspoon),Regional / Traditional Food,,50g avCHO equivalent,MIXED MEAL,13,,"healthy, BMI 23.4; (12 subjects)",50g glucose; pure glucose,"Nimbe Torres y Torres et al., 2006 [82]",Mexico
+498,Upma,Regional / Traditional Food,,310,SINGLE,114,,BMI 21.7; (19 subjects),50g glucose,"Tan et al., 2018 [72]",Singapore
+499,Venezuelan arepa (corn meal bread),Regional / Traditional Food,,50g avCHO equivalent,SINGLE,55.44,,"healthy, BMI normal; (10 subjects)",white wheat bread,"Schnell et al., 2005 [75]",Venezuela
+500,Wheat paste + plain ewedu soup (without stew),Regional / Traditional Food,,209.5,MIXED MEAL,47.6,,"healthy, BMI 22.0; (12 subjects)",50g glucose,"Akinlade et al., 2017 [122]",Nigeria
+501,White bun with red bean paste filling,Regional / Traditional Food,,106,SINGLE,98,,BMI 21.7; (19 subjects),50g glucose,"Tan et al., 2018 [72]",Singapore
+502,White rice (100g; Sunwhite) + sunflower oil (5g) + chicken broth without skin and bones (200mL) with carrots (260g),Regional / Traditional Food,,365g + 200mL,MIXED MEAL,84.2,,"healthy, BMI 21.6; (15 subjects)",85g bread (50g carbohydrates),"Faqih et al., 2013 [127]",Jordan
+503,White rice (125g; Sunwhite) + sunflower oil (5g) + chicken broth without skin and bones (200mL) with carrots (130g),Regional / Traditional Food,,260g + 200mL,MIXED MEAL,67.5,,"healthy, BMI 21.6; (15 subjects)",85g bread (50g carbohydrates),"Faqih et al., 2013 [127]",Jordan
+504,White rice (125g; Sunwhite) + sunflower oil (5g) + chicken broth without skin and bones (200mL) with mulukhiyah leaves (120g),Regional / Traditional Food,,250g + 200mL,MIXED MEAL,61.7,,"healthy, BMI 21.6; (15 subjects)",85g bread (50g carbohydrates),"Faqih et al., 2013 [127]",Jordan
+505,White rice (138g; Sunwhite) + sunflower oil (5g) + chicken broth without skin and bones (200mL) with mulukhiyah leaves (40g),Regional / Traditional Food,,183g + 200mL,MIXED MEAL,73.7,,"healthy, BMI 21.6; (15 subjects)",85g bread (50g carbohydrates),"Faqih et al., 2013 [127]",Jordan
+506,White rice (138g; Sunwhite) + sunflower oil (5g) + chicken broth without skin and bones (200mL) with spinach (150g),Regional / Traditional Food,,293g + 200mL,MIXED MEAL,42.9,,"healthy, BMI 21.6; (15 subjects)",85g bread (50g carbohydrates),"Faqih et al., 2013 [127]",Jordan
+507,White rice (145g; Sunwhite) + sunflower oil (5g) + chicken broth without skin and bones (200mL) with spinach (50g),Regional / Traditional Food,,200g + 200mL,MIXED MEAL,76.5,,"healthy, BMI 21.6; (15 subjects)",85g bread (50g carbohydrates),"Faqih et al., 2013 [127]",Jordan
+508,White rice (150g; Sunwhite) + sunflower oil (5g) + chicken broth without skin and bones (200mL),Regional / Traditional Food,,155g + 200mL,MIXED MEAL,76.1,,"healthy, BMI 21.6; (15 subjects)",85g bread (50g carbohydrates),"Faqih et al., 2013 [127]",Jordan
+509,White rice (150g; Sunwhite) + sunflower oil (5g) + chicken broth without skin and bones (200mL),Regional / Traditional Food,,155g + 200mL,MIXED MEAL,81,,"healthy, BMI 21.6; (15 subjects)",85g bread (50g carbohydrates),"Faqih et al., 2013 [127]",Jordan
+510,White rice (150g; Sunwhite) + sunflower oil (5g) + chicken broth without skin and bones (200mL),Regional / Traditional Food,,155g + 200mL,MIXED MEAL,92,,"healthy, BMI 21.6; (15 subjects)",85g bread (50g carbohydrates),"Faqih et al., 2013 [127]",Jordan
+511,White rice (Sunwhite) + sunflower oil (5g) + chicken broth without skin and bones,Regional / Traditional Food,,NA,MIXED MEAL,86.6,,"healthy, BMI 21.6; (15 subjects)",85g bread (50g carbohydrates),"Faqih et al., 2013 [127]",Jordan
+512,Yam + groundnut soup,Regional / Traditional Food,,NA,MIXED MEAL,50.71,,BMI 22.32; (10 subjects),75g glucose,"Mbanya et al., 2003 [123]",Cameroon
+513,"Basmati white rice (IndiaGate, KRBL Ltd.)",Rice & Rice Products,,188.3,SINGLE,52,,healthy BMI 22.1; (12 subjects),50g of unflavoured dextrose monohydrate dissolved in 250mL water,"Se et al., 2017 [128]",Malaysia
+514,"Brown rice (boiled; Sunbrown, Ricegrowers Inc)",Rice & Rice Products,,148,SINGLE,45,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+515,"Brown rice (Calrose rice (Sunbrown), Ricegrowers' Co-operative Ltd)",Rice & Rice Products,,148,SINGLE,62,,BMI 23.0; (13 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+516,"Brown rice (Tai Ken variety, Union Rice)",Rice & Rice Products,,NA,SINGLE,81,,BMI 20.6; (10 subjects),white bread,"Lin et al., 2010 [115]",China
+517,Brown rice (transgressive variant)||,Rice & Rice Products,,NA,SINGLE,39,,"healthy, BMI 22.9; (10 subjects)",50g glucose; anhydrous glucose,"Karupaiah et al., 2011 [130]",Malaysia
+518,Genetically modified- resistant starch-enriched rice (8g resistant starch),Rice & Rice Products,,Equivalent to 40g of carbohydrate,SINGLE,34.2,,"healthy, BMI 18-24; (16 subjects)",40g glucose with 300mL of water,"Li et al., 2010 [129]",China
+519,Hassawi rice,Rice & Rice Products,,125,SINGLE,49,,"healthy, no info on BMI; (10 subjects)",25g glucose,"Al-Mssallem et al., 2011 [131]",United Kingdom
+520,"Jasmine white rice (Rambutan AAA, Jasmine Food Corp. Pte. Ltd.)",Rice & Rice Products,,180.3,SINGLE,76,,healthy BMI 22.1; (12 subjects),50g of unflavoured dextrose monohydrate dissolved in 250mL water,"Se et al., 2017 [128]",Malaysia
+521,Jasmine white rice (Royal Umbrella),Rice & Rice Products,,63,SINGLE,75,§,"healthy, BMI 22.6; (27 subjects)",50g anhydrous glucose dissolved in 250mL water); anhydrous glucose,"Camps et al., 2021 [119]",Singapore
+522,"Long grain rice (high amylose rice; Indica rice, Thailand)",Rice & Rice Products,,50g avCHO equivalent,SINGLE,96,,"healthy, BMI 21.5; (15 subjects)",50g glucose,"Sato et al., 2010 [132]",Japan
+523,Plain white rice (boiled; Thai Hom Mali fragrant rice),Rice & Rice Products,,194,SINGLE,64,,BMI 20.1; (12 subjects),50g glucose,"Sun et al., 2014 [73]",Singapore
+524,rice|| Polished brown,Rice & Rice Products,,NA,SINGLE,68,,"healthy, BMI 22.9; (10 subjects)",50g glucose; anhydrous glucose,"Karupaiah et al., 2011 [130]",Malaysia
+525,Rice (Hinohikari),Rice & Rice Products,,142,SINGLE,71,,BMI 20.3; (12 subjects),50g glucose,"Oku et al., 2010 [71]",Japan
+526,Rice (Koshihikari),Rice & Rice Products,,142,SINGLE,72,,BMI 20.3; (12 subjects),50g glucose,"Oku et al., 2010 [71]",Japan
+527,Rice (Nihonbare),Rice & Rice Products,,135,SINGLE,50,,BMI 20.3; (12 subjects),50g glucose,"Oku et al., 2010 [71]",Japan
+528,Rice (Sato-no-gohan),Rice & Rice Products,,150,SINGLE,72,,BMI 20.3; (12 subjects),50g glucose,"Oku et al., 2010 [71]",Japan
+529,Rice vermicell (100% long grain rice),Rice & Rice Products,,50g avCHO equivalent,SINGLE,41,,"healthy, BMI 21.5; (15 subjects)",50g glucose,"Sato et al., 2010 [132]",Japan
+530,"Rice vermicelli (99% long grain rice + 1% calcium; Kenmin Food Co., Ltd., Japan)",Rice & Rice Products,,50g avCHO equivalent,SINGLE,44,,"healthy, BMI 21.5; (15 subjects)",50g glucose,"Sato et al., 2010 [132]",Japan
+531,"Rice vermicelli (long grain rice and potato starch, and is the flat type noodle “kway teow”; Kenmin Food Co., Ltd., Japan)",Rice & Rice Products,,50g avCHO equivalent,SINGLE,84,,"healthy, BMI 21.5; (15 subjects)",50g glucose,"Sato et al., 2010 [132]",Japan
+532,"Rice vermicelli (long grain rice and tapioca starch, and is the flat type noodle “pho""; Kenmin Food Co., Ltd., Japan)",Rice & Rice Products,,50g avCHO equivalent,SINGLE,38,,"healthy, BMI 21.5; (15 subjects)",50g glucose,"Sato et al., 2010 [132]",Japan
+533,"Rice vermicelli (long grain rice, tapioca and corn starch, and is a “sidedish” rice vermicelli; Kenmin Food Co., Ltd., Japan)",Rice & Rice Products,,50g avCHO equivalent,SINGLE,19,,"healthy, BMI 21.5; (15 subjects)",50g glucose,"Sato et al., 2010 [132]",Japan
+534,"Rice vermicelli (long grain rice, tapioca and potato starch, and is an “instant” rice vermicelli; Kenmin Food Co., Ltd., Japan)",Rice & Rice Products,,50g avCHO equivalent,SINGLE,43,,"healthy, BMI 21.5; (15 subjects)",50g glucose,"Sato et al., 2010 [132]",Japan
+535,"Thailand red rice (NutriRice, Jasmine Food Corp. Pte. Ltd.)",Rice & Rice Products,,174.2,SINGLE,59,,healthy BMI 22.1; (12 subjects),50g of unflavoured dextrose monohydrate dissolved in 250mL water,"Se et al., 2017 [128]",Malaysia
+536,UKMRC10 red rice variant ¶,Rice & Rice Products,,181.1,SINGLE,69,,healthy BMI 22.1; (12 subjects),50g of unflavoured dextrose monohydrate dissolved in 250mL water,"Se et al., 2017 [128]",Malaysia
+537,UKMRC11 red rice variant ¶,Rice & Rice Products,,170.2,SINGLE,69,,healthy BMI 22.1; (12 subjects),50g of unflavoured dextrose monohydrate dissolved in 250mL water,"Se et al., 2017 [128]",Malaysia
+538,UKMRC9 red rice variant ¶,Rice & Rice Products,,178.9,SINGLE,51,,healthy BMI 22.1; (12 subjects),50g of unflavoured dextrose monohydrate dissolved in 250mL water,"Se et al., 2017 [128]",Malaysia
+539,"White rice (Calrose rice (Sunwhite), Ricegrowers' Co-operative Ltd)",Rice & Rice Products,,203,SINGLE,79,,BMI 23.0; (13 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+540,"White rice (normal amylose rice; Japonica rice, Koshihikari)",Rice & Rice Products,,50g avCHO equivalent,SINGLE,64,,"healthy, BMI 21.5; (15 subjects)",50g glucose,"Sato et al., 2010 [132]",Japan
+541,White rice (Rambutan brand)||,Rice & Rice Products,,NA,SINGLE,63,,"healthy, BMI 22.9; (10 subjects)",50g glucose; anhydrous glucose,"Karupaiah et al., 2011 [130]",Malaysia
+542,White rice (SunRice),Rice & Rice Products,,221.7,SINGLE,79,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+543,"White rice (Sunwhite, Rice- growers Inc)",Rice & Rice Products,,203,SINGLE,58,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+544,Wild-type rice,Rice & Rice Products,,Equivalent to 40g of carbohydrate,SINGLE,54.4,,"healthy, BMI 18-24; (16 subjects)",40g glucose with 300mL of water,"Li et al., 2010 [129]",China
+545,Peanut butter (Kraft Foods Inc),Seed / Nut Products,,41,SINGLE,11,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+546,Peanut butter (smooth; Kraft),Seed / Nut Products,,25,SINGLE,15,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+547,Peanuts,Seed / Nut Products,,28,SINGLE,9,,"healthy, BMI 23.4; (12 subjects)",50g glucose; pure glucose,"Nimbe Torres y Torres et al., 2006 [82]",Mexico
+548,Peanuts,Seed / Nut Products,,240kcal (6g carbohydrate),SINGLE,57,,"healthy, no info; (12 subjects)",50g glucose,"Parcell et al., 2004 [69]",United States of America
+549,Peanuts (salted & roasted; Grocery Wholesalers Inc),Seed / Nut Products,,38,SINGLE,15,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+550,Peanuts (salted roasted; Grocery Wholesalers Ltd),Seed / Nut Products,,38,SINGLE,20,,BMI 22.9; (12 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+551,Walnuts (Lucky California),Seed / Nut Products,,35,SINGLE,5,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+552,Walnuts (Lucky California),Seed / Nut Products,,63.8,SINGLE,7,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+553,40% reduced-fat potato chips (Cape Cod Potato Chip Company),Snack Food,,51,SINGLE,51,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+554,"97% fat-free pretzels (Parkers, The Smith’s Snackfood Company)",Snack Food,,63,SINGLE,74,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+555,Banana (279g) + full-fat milk (352g) ‡,Snack Food,,631,MIXED MEAL,58,,"healthy, BMI 22.3 (10 or 11 subjects))",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+556,Chocolate bar with a milky filling,Snack Food,,25,SINGLE,68.9,,"healthy, BMI 23.1; (10 subjects)",glucose 25g; Diasol,"Choi et al., 2020 [157]",Korea
+557,Chocolate cake brownie with frosting (White Wings Pty Ltd),Snack Food,,64,SINGLE,60,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+558,"Chocolate cake with icing (White Wings Foods, Smithfield)",Snack Food,,64,SINGLE,82,,BMI 23.1; (12 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+559,Chocolate fudge super moist cake (Betty Crocker cake mix) with creamy deluxe dark Dutch fudge frosting (Betty Crocker),Snack Food,,107.2,SINGLE,88,,"healthy, BMI 21.8; (10 subjects)",50g glucose; anhydrous glucose,"Brand-Miller et al., 2003 [64]",Australia
+560,Chocolate-chip cookies (Arnott’s) + vanilla ice cream (Dairy Farmers),Snack Food,,172,MIXED MEAL,91,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+561,Classic full cream milk chocolate bar (Nestle),Snack Food,,84,SINGLE,71,,"healthy, BMI 21.8; (10 subjects)",50g glucose; anhydrous glucose,"Brand-Miller et al., 2003 [64]",Australia
+562,Cookies (49g) + ice cream ‡ (123g),Snack Food,,172,MIXED MEAL,54,,"healthy, BMI 22.3 (10 or 11 subjects)",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+563,Corn chips (The Smith’s Snackfood Company),Snack Food,,46,SINGLE,45,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+564,French vanilla classic ice cream (Sara Lee),Snack Food,,277.6,SINGLE,54,,"healthy, BMI 21.8; (10 subjects)",50g glucose; anhydrous glucose,"Brand-Miller et al., 2003 [64]",Australia
+565,French vanilla super moist cake (Betty Crocker cake mix) with creamy deluxe vanilla frosting (Betty Crocker),Snack Food,,97.2,SINGLE,67,,"healthy, BMI 21.8; (10 subjects)",50g glucose; anhydrous glucose,"Brand-Miller et al., 2003 [64]",Australia
+566,"Healthy snack (containing Olu rice, foxtail millet, barley, chickpeas, wheat flour, cinnamon, butter, raisins, egg white, baking powder and vanilla essence)",Snack Food,,33,SINGLE,47.79,,"healthy, normal BMI; (12 subjects)",55g glucose in 250mL water (gives 50g carbohydrates),"Lanerolle-Dias et al., 2022 [133]",Sri Lanka
+567,Honeydew-melon (100g) + banana (98g) + 99% fat- free strawberry yoghurt (300g) + 200mL apple juice‡,Snack Food,,698,MIXED MEAL,116,,"healthy, BMI 22.3 (10 or 11 subjects))",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+568,Instant chocolate flavoured pudding (White Wings Foods) + full cream milk,Snack Food,,314.5,MIXED MEAL,80,,"healthy, BMI 21.8; (10 subjects)",50g glucose; anhydrous glucose,"Brand-Miller et al., 2003 [64]",Australia
+569,Instant vanilla flavoured pudding (White Wings Foods) + full cream milk,Snack Food,,310.6,MIXED MEAL,62,,"healthy, BMI 21.8; (10 subjects)",50g glucose; anhydrous glucose,"Brand-Miller et al., 2003 [64]",Australia
+570,Jelly beans (Grocery Wholesalers Inc),Snack Food,,88,SINGLE,117,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+571,Jellybeans (assorted colours),Snack Food,,88,SINGLE,160,,BMI 22.9; (12 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+572,"Low-fat vanilla ice-cream (Coles Farmland, Coles Supermarkets)",Snack Food,,185,SINGLE,69,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+573,Mars bar,Snack Food,,54,SINGLE,122,,BMI 22.9; (12 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+574,Mars bar (Mars Confectionary Inc),Snack Food,,54,SINGLE,89,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+575,Milk and cocoa cream chocolate with crispy wafer balls coated with creamy cocoa,Snack Food,,20,SINGLE,97.9,,"healthy, BMI 23.1; (10 subjects)",25g glucose; Diasol,"Choi et al., 2020 [157]",Korea
+576,Milk chocolate (Hershey Foods Inc),Snack Food,,45,SINGLE,34,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+577,Milk chocolate ball,Snack Food,,31,SINGLE,63.8,,"healthy, BMI 23.1; (10 subjects)",25g glucose; Diasol,"Choi et al., 2020 [157]",Korea
+578,Plain popcorn (microwaved; Uncle Toby’s),Snack Food,,47,SINGLE,54,,BMI 22.9; (12 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+579,Plain potato chips (crinkle cut; Smith’s),Snack Food,,44,SINGLE,61,,BMI 22.9; (12 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+580,Popcorn (Uncle Toby’s Inc),Snack Food,,52,SINGLE,39,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+581,Potato chips (The Smith’s Snackfoods Company),Snack Food,,44,SINGLE,45,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+582,"Sherbet (Frosty Fruits Orange Mango Splits, Nestle Pty Ltd)",Snack Food,,217,SINGLE,76,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+583,Snickers bar (Masterfoods),Snack Food,,50,SINGLE,37,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+584,Soft baked cake with wheat bran (Mondelez),Snack Food,,93,SINGLE,76,,"healthy, BMI 21.7; (12 subjects)",51g glucose,"Cesbron-Lavau et al., 2021 [106]",France
+585,Soft baked cake without wheat bran (Mondelez),Snack Food,,89,SINGLE,85,,"healthy, BMI 21.7; (12 subjects)",51g glucose,"Cesbron-Lavau et al., 2021 [106]",France
+586,Sponge cake (Castilla),Snack Food,,80,SINGLE,52,,BMI 20.3; (12 subjects),50g glucose,"Oku et al., 2010 [71]",Japan
+587,"Super moist yellow cake with chocolate frosting (Betty Crocker, General Mills Inc)",Snack Food,,73,SINGLE,53,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+588,Ultra chocolate classic ice cream (Sara Lee),Snack Food,,264.1,SINGLE,71,,"healthy, BMI 21.8; (10 subjects)",50 g glucose; anhydrous glucose,"Brand-Miller et al., 2003 [64]",Australia
+589,Vanilla ice cream (Dairy Bell),Snack Food,,120,SINGLE,89,,BMI 22.9; (12 subjects),50g carbohydrate white bread,"Holt et al., 1997 [29]",Australia
+590,Vanilla ice cream (Dairy Bell),Snack Food,,120,SINGLE,65,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+591,Vanilla ice cream (Dairy Farmers),Snack Food,,123,SINGLE,89,,BMI 22.8; (10 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+592,Walnuts (44g) + raisins (28g) + carrot juice (250g) ‡,Snack Food,,322,MIXED MEAL,35,,"healthy, BMI 22.3 (10 or 11 subjects))",193g (2000kJ) white bread,"Bao et al., 2011 [46]",Australia
+593,Walnuts + raisins + carrot juice,Snack Food,,100,MIXED MEAL,22,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+594,"White chocolate bar (Milky Bar, Nestle)",Snack Food,,86.2,SINGLE,63,,"healthy, BMI 21.8; (10 subjects)",50 g glucose; anhydrous glucose,"Brand-Miller et al., 2003 [64]",Australia
+595,"Whole soy powder cake (Soyjoy, flavoured with raisin and almond)",Snack Food,,114,SINGLE,48,,BMI 21.4; (20 subjects),50g glucose,"Oku et al., 2009 [76]",Japan
+596,Acacia honey,Sweeteners,,20,SINGLE,48.9,,clinically/metabolically healthy; (10 subjects),25g glucose,"Deibert et al., 2010 [77]",Germany
+597,Christ Thorn honey,Sweeteners,,NA,SINGLE,96,,"healthy, BMI 24.3; (14 subjects)",white bread,"Abu Rajab et al., 2017 [78]",Jordan
+598,Citrus honey,Sweeteners,,NA,SINGLE,106,,"healthy, BMI 24.3; (14 subjects)",white bread,"Abu Rajab et al., 2017 [78]",Jordan
+599,Forest honey,Sweeteners,,20,SINGLE,63,,clinically/metabolically healthy; (10 subjects),25g glucose,"Deibert et al., 2010 [77]",Germany
+600,Glucose syrup,Sweeteners,,61.4,SINGLE,104,,"healthy, BMI 22.7; (10 subjects)",50g glucose,"Wright et al., 2014 [63]",Australia
+601,Glucose syrup + filtered molasses concentrate (2.21g),Sweeteners,,63.1,MIXED MEAL,87,,"healthy, BMI 22.7; (10 subjects)",50g glucose,"Wright et al., 2014 [63]",Australia
+602,Heather honey,Sweeteners,,20,SINGLE,49.1,,clinically/metabolically healthy; (10 subjects),25g glucose,"Deibert et al., 2010 [77]",Germany
+603,High fructose corn syrup,Sweeteners,,64.5,SINGLE,65,,"healthy, BMI 22.7; (10 subjects)",50g glucose,"Wright et al., 2014 [63]",Australia
+604,High fructose corn syrup + filtered molasses concentrate (2.06g),Sweeteners,,62.3,MIXED MEAL,58,,"healthy, BMI 22.7; (10 subjects)",50g glucose,"Wright et al., 2014 [63]",Australia
+605,Iron Bark honey,Sweeteners,,41.7,SINGLE,42,,BMI 22.5; (10 subjects),25g glucose in 250mL water,"Arcot et al., 2005 [65]",Australia
+606,Linden honey (heated),Sweeteners,,20,SINGLE,60.4,,clinically/metabolically healthy; (10 subjects),25g glucose,"Deibert et al., 2010 [77]",Germany
+607,Linden honey (not heated),Sweeteners,,20,SINGLE,61,,clinically/metabolically healthy; (10 subjects),25g glucose,"Deibert et al., 2010 [77]",Germany
+608,Locust pod honey,Sweeteners,,NA,SINGLE,107.6,,"healthy, BMI 24.3; (14 subjects)",white bread,"Abu Rajab et al., 2017 [78]",Jordan
+609,Maltitol,Sweeteners,,50,SINGLE,17.79,,"healthy, BMI 22.6 (11 subjects)",50g glucose in 150mL mineral water,"Thabuis et al., 2015 [134]",France
+610,Mixed flora honey,Sweeteners,,NA,SINGLE,104.4,,"healthy, BMI 24.3; (14 subjects)",white bread,"Abu Rajab et al., 2017 [78]",Jordan
+611,Multifloral honey,Sweeteners,,20,SINGLE,52.4,,clinically/metabolically healthy; (10 subjects),25g glucose,"Deibert et al., 2010 [77]",Germany
+612,Oilseed-rape honey,Sweeteners,,20,SINGLE,57,,clinically/metabolically healthy; (10 subjects),25g glucose,"Deibert et al., 2010 [77]",Germany
+613,Organic coconut flower syrup,Sweeteners,,65.5,SINGLE,36.7,,"healthy, BMI 18.9; (10 subjects)",50g glucose; anhydrous glucose,"Leelayuwat et al., 2018 [79]",Thailand
+614,Organic coconut flower syrup mixed with 1.5% inulin added,Sweeteners,,65.3,SINGLE,20.7,,"healthy, BMI 18.9; (10 subjects)",50g glucose; anhydrous glucose,"Leelayuwat et al., 2018 [79]",Thailand
+615,Organic coconut flower syrup mixed with 3% inulin added,Sweeteners,,65.1,SINGLE,18.4,,"healthy, BMI 18.9; (10 subjects)",50g glucose; anhydrous glucose,"Leelayuwat et al., 2018 [79]",Thailand
+616,Salvation Jane honey,Sweeteners,,40.6,SINGLE,52,,BMI 22.5; (10 subjects),25g glucose in 250mL water,"Arcot et al., 2005 [65]",Australia
+617,Sugar honey,Sweeteners,,NA,SINGLE,75.4,,"healthy, BMI 24.3; (14 subjects)",white bread,"Abu Rajab et al., 2017 [78]",Jordan
+618,Sweet chestnut honey,Sweeteners,,20,SINGLE,49,,clinically/metabolically healthy; (10 subjects),25 g glucose,"Deibert et al., 2010 [77]",Germany
+619,Yellow Box honey,Sweeteners,,NA,SINGLE,40,,BMI 22.5; (10 subjects),25g glucose in 250mL water,"Arcot et al., 2005 [65]",Australia
+620,Broccoli (steamed; Australia),Vegetables & Vegetable Products,,877,SINGLE,29,*,"healthy, BMI 19-25; (10 to 11 subjects)",300 kJ Glucose,"Bell et al., 2016 [31]",Australia
+621,Butter chicken sauce (Sharwood’s),Vegetables & Vegetable Products,,209,SINGLE,16,*,"healthy, BMI 19-25; (10 to 11 subjects)",1000 kJ glucose powder dissolved in 250mL of water,"Bell et al., 2016 [31]",Australia
+622,Butternut pumpkin (baked; Australia),Vegetables & Vegetable Products,,431,SINGLE,77,*,"healthy, BMI 19-25; (10 to 11 subjects)",300 kJ Glucose,"Bell et al., 2016 [31]",Australia
+623,Carrots (peeled and steamed; Australia),Vegetables & Vegetable Products,,775,SINGLE,44,*,"healthy, BMI 19-25; (10 to 11 subjects)",300 kJ Glucose,"Bell et al., 2016 [31]",Australia
+624,Cauliflower (steamed; Australia),Vegetables & Vegetable Products,,971,SINGLE,48,*,"healthy, BMI 19-25; (10 to 11 subjects)",300 kJ Glucose,"Bell et al., 2016 [31]",Australia
+625,Corn (McCain Super Juicy frozen corn),Vegetables & Vegetable Products,,45,SINGLE,53,,BMI 22.8; (11 subjects),193g (2000kJ) white bread,"Bao et al., 2009 [61]",Australia
+626,Frozen corn (McCain’s Food Pty Ltd),Vegetables & Vegetable Products,,222,SINGLE,39,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia
+627,Peas (steamed from frozen; McCains),Vegetables & Vegetable Products,,333,SINGLE,37,*,"healthy, BMI 19-25; (10 to 11 subjects)",300 kJ Glucose,"Bell et al., 2016 [31]",Australia
+628,Taro (steamed),Vegetables & Vegetable Products,,NA,SINGLE,73,,BMI 20.6; (10 subjects),white bread,"Lin et al., 2010 [115]",China
+629,Tomato pasta sauce (Paul Newman),Vegetables & Vegetable Products,,445,SINGLE,41,,exact values not given; (10 or 11 subjects),glucose; glucodin,"Bao et al., 2011 [46]",Australia

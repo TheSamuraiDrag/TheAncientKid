@@ -1,0 +1,125 @@
+Number,Food / Beverage Name,Total Weight (g) / Portion,II,Subject Details (No. of Subjects),Comparator,Author / Year / Reference,Country
+1,100g glucose + 20g cellulose,1680kJ,140,healthy; (5 subjects),100g glucose,"Siddhu et al., 1989 [135]",India
+2,60g glucose + 18g corn oil,400kcal,73.2,healthy; (6 subjects),100g glucose,"Siddhu et al., 1991 [136]",India
+3,60g glucose + 18g corn oil + 20g pectin,400kcal,55.6,healthy; (6 subjects),100g glucose,"Siddhu et al., 1991 [136]",India
+4,60g glucose + 18g maize oil + 20g cellulose,1680kJ,103,healthy; (5 subjects),100g glucose,"Siddhu et al., 1989 [135]",India
+5,60g glucose + 20g casein + 9g maize oil + 20g cellulose,1680kJ,113,healthy; (5 subjects),100g glucose,"Siddhu et al., 1989 [135]",India
+6,60g glucose + 40g casein + 20g cellulose,1680kJ,110,healthy; (5 subjects),100g glucose,"Siddhu et al., 1989 [135]",India
+7,60g glucose + 9g corn oil + 20g casein,400kcal,84.3,healthy; (6 subjects),100g glucose,"Siddhu et al., 1991 [136]",India
+8,60g glucose + 9g corn oil + 20g casein + 20g cellulose,400kcal,86.5,healthy; (6 subjects),100g glucose,"Siddhu et al., 1991 [136]",India
+9,60g glucose + 9g corn oil + 20g casein + 20g pectin,400kcal,44.6,healthy; (6 subjects),100g glucose,"Siddhu et al., 1991 [136]",India
+10,All-Bran (Kellogg’s) + reduced fat milk,84.5,57,"healthy, BMI 22.9; (7 subjects)",81.7g white bread,"Holt et al., 1992 [158]",Australia
+11,Apple,1000kJ portion,59,no info,white bread,"Yahia et al., 2018 [137]",Mexico
+12,Apples (Red Delicious),120,59,no info,50g glucose; pure glucose,"Erwig et al., 2005 [138]",Germany
+13,Artificially sweetened cola (54mg caffeine; Pepsi),450mL,4,"healthy, BMI 21.9; (7 subjects)",50g glucose,"Hätönen et al., 2012b [80]",Finland
+14,Banana,1000kJ portion,81,no info,white bread,"Yahia et al., 2018 [137]",Mexico
+15,Bananas,120,81,no info,50g glucose; pure glucose,"Erwig et al., 2005 [138]",Germany
+16,Barley tempe (oven-baked),95,55,BMI 24.4; (13 subjects),25g glucose; pure glucose,"Alminger et al., 2008 [140]",Sweden
+17,Beans,NA,41.7,healthy; (8 subjects),bread,"Noriega et al., 2001 [141]",Mexico
+18,Bilberry 10% + fermented oatmilk (5%) drink (Pro Viva) + 150mL tea/coffee/water,302,65,"healthy, BMI 23; (9 subjects)",bread 70.2g (30g avCHO),"Granfeldt et al., 2011 [68]",Sweden
+19,Black beans,50g avCHO equivalent,40,"normal, no info; (8 to 10 subjects)",50 g glucose,"Izquierdo et al., 2006 [139]",Venezuela
+20,Blue grapes,120,83,no info,50g glucose; pure glucose,"Erwig et al., 2005 [138]",Germany
+21,Bread made with blends of standard cornstarch and high-amylose cornstarch (40% amylose starch),1g carbohydrate/kg body weight,96.5,BMI 27.5; (24 subjects),1g glucose/kg body weight,"Behall et al., 2002 [142]",Sweden
+22,Bread made with blends of standard cornstarch and high-amylose cornstarch (50% amylose starch),1g carbohydrate/kg body weight,89.3,BMI 27.5; (24 subjects),1g glucose/kg body weight,"Behall et al., 2002 [142]",Sweden
+23,Bread made with blends of standard cornstarch and high-amylose cornstarch (60% amylose starch),1g carbohydrate/kg body weight,72.3,BMI 27.5; (24 subjects),1g glucose/kg body weight,"Behall et al., 2002 [142]",Sweden
+24,Bread made with high-amylose cornstarch (70% amylose),1g carbohydrate/kg body weight,59.4,BMI 27.5; (24 subjects),1g glucose/kg body weight,"Behall et al., 2002 [142]",Sweden
+25,Bread made with standard cornstarch (30% amylose),1g carbohydrate/kg body weight,94.4,BMI 27.5; (24 subjects),1g glucose/kg body weight,"Behall et al., 2002 [142]",Sweden
+26,Casabe bread (cassava flour flatbread),50g avCHO equivalent,132.2,"normal, no info; (8 to 10 subjects)",50g glucose,"Izquierdo et al., 2006 [139]",Venezuela
+27,Commercial blend 1 honey,49.6,67,BMI 22.3; (9 subjects),25g glucose in 250mL water,"Arcot et al., 2005 [65]",Australia
+28,Commercial blend 2 honey,35.6,62,BMI 22.3; (9 subjects),25g glucose in 250mL water,"Arcot et al., 2005 [65]",Australia
+29,Corn tortilla,NA,85.5,healthy; (8 subjects),bread,"Noriega et al., 2001 [141]",Mexico
+30,Corn tortilla potato taco,NA,171.3,healthy; (8 subjects),bread,"Noriega et al., 2001 [141]",Mexico
+31,"Creamy German cake, milk slice (Milch-Schnitte, Ferrero)",28,57,no info,50g glucose; pure glucose,"Erwig et al., 2005 [138]",Germany
+32,Durum wheat noodles,180,40,no info,50g glucose; pure glucose,"Erwig et al., 2005 [138]",Germany
+33,Durum wheat spaghetti (Barilla),NA,61,healthy; (8 subjects),white wheat bread,"Hoebler et al., 1999 [144]",France
+34,Enercal Plus (nutritional formula),367kcal (240mL),149,"healthy, BMI 19-30; (12 subjects)",200kcal glucose,"Edes et al., 1998 [145]",United States of America
+35,Erythritol,NA,2,no info,NA,Livesey 2003 [146],United Kingdom
+36,Fries,100,74,no info,50g glucose; pure glucose,"Erwig et al., 2005 [138]",Germany
+37,Fruit yoghurt (3% fat),150,115,no info,50g glucose; pure glucose,"Erwig et al., 2005 [138]",Germany
+38,"German cola (Score Cola, Lichtenauer Mineralquelle)",250mL,38,no info,50g glucose; pure glucose,"Erwig et al., 2005 [138]",Germany
+39,Grapes,1000kJ portion,82,no info,white bread,"Yahia et al., 2018 [137]",Mexico
+40,High maize amylose starch Wheat bread,NA,57,healthy; (8 subjects),white wheat bread,"Hoebler et al., 1999 [144]",France
+41,High-maltitol syrup,NA,35,no info,NA,Livesey 2003 [146],United Kingdom
+42,High-polymer maltitol syrup,NA,31,no info,NA,Livesey 2003 [146],United Kingdom
+43,Instant mashed potato,71.8,128,BMI 22; (9 subjects),50g glucose,Lan-Pidhainy et al 2011 [47],Canada
+44,Intermediate-maltitol syrup,NA,41,no info,NA,Livesey 2003 [146],United Kingdom
+45,Isomalt,NA,6,no info,NA,Livesey 2003 [146],United Kingdom
+46,Jaggery,68.6,62.5,BMI 19.46; (6 subjects),62.5g (1000kJ) glucose in 250mL of water,"Mahilrajan et al., 2017 [147]",Sri Lanka
+47,"Kefir (orange flavor, ProBugs)",273mL (1000kJ),124,"healthy, BMI 24; (9 subjects)",1000 kJ White bread,"Kong et al., 2012 [110]",United States of America
+48,Lactitol,NA,4,no info,NA,Livesey 2003 [146],United Kingdom
+49,Large coffee (303mg caffeine; Juhlamokka) with an 87g Finnish sweet bun (Viipaloitu Pullava),250mL,73,"healthy, BMI 21.9; (7 subjects)",50g glucose,"Hätönen et al., 2012b [80]",Finland
+50,Large coffee (303mg caffeine; Juhlamokka) with glucose (50g) solution,250mL,92,"healthy, BMI 21.9; (7 subjects)",50g glucose,"Hätönen et al., 2012b [80]",Finland
+51,Large coffee (303mg caffeine; Juhlamokka) with sucrose (48g) and full fat milk (50mL),300mL,62,"healthy, BMI 21.9; (6 subjects)",50g glucose,"Hätönen et al., 2012b [80]",Finland
+52,Lucchett common pasta - spaghetti (long presentation; boiled for 8 minutes) + 5mL grapeseed oil,85,39.2,"healthy, BMI <30; (10 subjects)",110g fresh white bread,"Hirsch B et al., 2010 [148]",Chile
+53,Lucchett common pasta - tie (short presentation; boiled for 8 minutes) + 5mL grapeseed oil,85,68.9,"healthy, BMI <30; (10 subjects)",110g fresh white bread,"Hirsch B et al., 2010 [148]",Chile
+54,Lycasin 50g,50,23,non-diabetic; (6 subjects),50g glucose in 150mL of water,"Rizkalla et al., 2002 [149]",France
+55,Maltitol,NA,27,no info,NA,Livesey 2003 [146],United Kingdom
+56,Mannitol,NA,0,no info,NA,Livesey 2003 [146],United Kingdom
+57,"Mashed potato 272g with 30g rapeseed oil, 108g chicken breast, 120g salad (cucumber, tomato, lettuce) and 30g rye bread + 6g margarine",566,94,BMI 21.3; (7 subjects),50g glucose,"Hätönen et al., 2011 [150]",Finland
+58,Mashed potato 362g + cucumber 40g,402,118,BMI 21.3; (8 subjects),50g glucose,"Hätönen et al., 2011 [150]",Finland
+59,Mashed potato 362g with 108g chicken breast + 40g cucumber,510,148,BMI 21.3; (8 subjects),50g glucose,"Hätönen et al., 2011 [150]",Finland
+60,"Mashed potato 362g with 120g salad (cucumber, tomato, lettuce)",482,105,BMI 21.3; (8 subjects),50g glucose,"Hätönen et al., 2011 [150]",Finland
+61,Mashed potato 362g with 30g rapeseed oil + 40g cucumber,432,97,BMI 21.3; (8 subjects),50g glucose,"Hätönen et al., 2011 [150]",Finland
+62,"Mashed potato 362g with 30g rapeseed oil, 108g chicken breast and 120g salad (cucumber, tomato, lettuce)",620,106,BMI 21.3; (7 subjects),50g glucose,"Hätönen et al., 2011 [150]",Finland
+63,Muesli,30,46,no info,50g glucose; pure glucose,"Erwig et al., 2005 [138]",Germany
+64,Nikolai Lager 4.5% (beer),510,130,"healthy, BMI 23; (9 subjects)",25g glucose,"Hätönen et al., 2012a [67]",Finland
+65,Nutraceutical beverage (2g dried tomato peel powder + 75g glucose),NA,72,BMI 23.3; (20 subjects),75g glucose,"Tenore et al., 2020 [143]",Italy
+66,Nutraceutical beverage (2g nectarine dry extract powder + 75g glucose),NA,63,BMI 23.3; (20 subjects),75g glucose,"Tenore et al., 2020 [143]",Italy
+67,Nutraceutical beverage (400mg ethanol extract from olive leaves + 75g glucose),NA,120,BMI 23.3; (20 subjects),75g glucose,"Tenore et al., 2020 [143]",Italy
+68,Nutriose FB 06 (fermentable carbohydrate) in 250mL water,50,13,"healthy, normal BMI; (6 subjects)",50g dextrose,"Y. Donazollo et al., 2003 [151]",France
+69,Oat tempe (oven-baked),111,21,BMI 24.4; (13 subjects),25g glucose; pure glucose,"Alminger et al., 2008 [140]",Sweden
+70,Odiyal pittu,115.3,68.9,BMI 21.04; (6 subjects),62.5g (1000kJ) glucose in 250mL of water,"Mahilrajan et al., 2017 [147]",Sri Lanka
+71,Orange,1000kJ portion,60,no info,white bread,"Yahia et al., 2018 [137]",Mexico
+72,Pan (bread),50g avCHO equivalent,104.1,"normal, no info; (8 to 10 subjects)",50 g glucose,"Izquierdo et al., 2006 [139]",Venezuela
+73,Papelon (brown whole cane sugar),50g avCHO equivalent,68.4,"normal, no info; (8 to 10 subjects)",50 g glucose,"Izquierdo et al., 2006 [139]",Venezuela
+74,Pasta,50g avCHO equivalent,68.3,"normal, no info; (8 to 10 subjects)",50 g glucose,"Izquierdo et al., 2006 [139]",Venezuela
+75,Pearled barley,80.6,46,BMI 22; (9 subjects),50g glucose,Lan-Pidhainy et al 2011 [47],Canada
+76,Pinattu,76.3,36.47,BMI 19.90; (6 subjects),62.5g (1000kJ) glucose in 250mL of water,"Mahilrajan et al., 2017 [147]",Sri Lanka
+77,Plantain,50g avCHO equivalent,66.4,"normal, no info; (8 to 10 subjects)",50 g glucose,"Izquierdo et al., 2006 [139]",Venezuela
+78,Polished rice,62.5,60,BMI 22; (9 subjects),50g glucose,Lan-Pidhainy et al 2011 [47],Canada
+79,Polyglycitol,NA,23,no info,NA,Livesey 2003 [146],United Kingdom
+80,Porridge oats (Uncle Toby’s) + reduced fat milk,53.1,63.4,"healthy, BMI 22.9; (7 subjects)",81.7g white bread,"Holt et al., 1992 [158]",Australia
+81,Potato,50g avCHO equivalent,92.1,"normal, no info; (8 to 10 subjects)",50 g glucose,"Izquierdo et al., 2006 [139]",Venezuela
+82,Potatoes (cooked),160,121,no info,50g glucose; pure glucose,"Erwig et al., 2005 [138]",Germany
+83,Pullukodiyal,93.8,40.17,BMI 19.47; (6 subjects),62.5g (1000kJ) glucose in 250mL of water,"Mahilrajan et al., 2017 [147]",Sri Lanka
+84,Raisins,69,38,healthy; (10 subjects),108g white bread,"Esfahani et al., 2014 [152]",Canada
+85,Red gum honey,33.9,51,BMI 22.3; (9 subjects),25g glucose in 250mL water,"Arcot et al., 2005 [65]",Australia
+86,Regular-maltitol syrup,NA,44,no info,NA,Livesey 2003 [146],United Kingdom
+87,Resistant starch bread (34.4% resistant starch; contains high-amylose maize starch VII (HA7) with palmitic acid (PA) and isoamylase (ISO)),Equivalent to 50g of starch,43,"healthy, BMI 21-48; (20 subjects)",white bread (50g of starch),"Hasjim et al., 2010 [153]",United States of America
+88,Rice Bubbles (Kellogg’s) + reduced fat milk,42.8,105.4,"healthy, BMI 22.9; (7 subjects)",81.7g white bread,"Holt et al., 1992 [158]",Australia
+89,Rosehip 10% + Fermented oatmeal (5%) drink (Pro Viva) + 150mL tea/coffee/water,300,79,"healthy, BMI 23; (9 subjects)",70.2g bread (30g avCHO),"Granfeldt et al., 2011 [68]",Sweden
+90,Skimmed milk,NA,140,BMI 23.5; (8 subjects),25g glucose,"Hoyt et al., 2005 [154]",United States of America
+91,Small coffee (151mg caffeine; Juhlamokka) with glucose (50g) solution,125mL,89,"healthy, BMI 21.9; (6 subjects)",50g glucose,"Hätönen et al., 2012b [80]",Finland
+92,Sorbitol,NA,11,no info,NA,Livesey 2003 [146],United Kingdom
+93,Soy soft pretzel,72.9,75,"healthy, BMI <30; (12 subjects)",glucose standard drink; Glucola,"Simmons et al., 2011 [155]",United States of America
+94,Spanish thistle honey,NA,98.5,"healthy, BMI 24.3; (4 subjects)",white bread,"Abu Rajab et al., 2017 [78]",Jordan
+95,"Standard test meal (2 slices of white bread, 1.5 eggs, 1 teaspoon margarine + 6.5 oz of orange juice)",361kcal,91,"healthy, BMI 19-30; (12 subjects)",200kcal glucose,"Edes et al., 1998 [145]",United States of America
+96,Stringy Bark honey,30.4,47,BMI 22.3; (9 subjects),25g glucose in 250mL water,"Arcot et al., 2005 [65]",Australia
+97,Sucrose,NA,161.3,"healthy, BMI 24.3; (9 subjects)",white bread,"Abu Rajab et al., 2017 [78]",Jordan
+98,Sucrose,50,70,BMI 22; (9 subjects),50g glucose,Lan-Pidhainy et al 2011 [47],Canada
+99,Sucrose-sweetened cola (54mg caffeine; Pepsi),450mL,61,"healthy, BMI 21.9; (7 subjects)",50g glucose,"Hätönen et al., 2012b [80]",Finland
+100,Sustain (Kellogg’s) + reduced fat milk,51.1,103.6,"healthy, BMI 22.9; (7 subjects)",81.7g white bread,"Holt et al., 1992 [158]",Australia
+101,Tallian egg-enriched pasta - spaghetti (long presentation; boiled for 8 minutes) + 5mL grapeseed oil,85,41.9,"healthy, BMI <30; (10 subjects)",110g fresh white bread,"Hirsch B et al., 2010 [148]",Chile
+102,Tallian egg-enriched pasta - tie (short presentation; boiled for 8 minutes) + 5mL grapeseed oil,85,117.6,"healthy, BMI <30; (10 subjects)",110g fresh white bread,"Hirsch B et al., 2010 [148]",Chile
+103,Tea/water + 100g glucose,500mL,161.6,"healthy, BMI 22.2 (8 subjects)",100g white bread,"Lee et al., 1998 [156]",Canada
+104,Tea/water + 100g sucrose,500mL,117.2,"healthy, BMI 22.2 (8 subjects)",100g white bread,"Lee et al., 1998 [156]",Canada
+105,Tea/water + 25g fructose,500mL,22.9,"healthy, BMI 22.2 (8 subjects)",25g white bread,"Lee et al., 1998 [156]",Canada
+106,Tea/water + 25g glucose,500mL,152,"healthy, BMI 22.2 (8 subjects)",25g white bread,"Lee et al., 1998 [156]",Canada
+107,Tea/water + 25g sucrose,500mL,73.4,"healthy, BMI 22.2 (8 subjects)",25g white bread,"Lee et al., 1998 [156]",Canada
+108,Tea/water + 50g fructose,500mL,20.6,"healthy, BMI 22.2 (7 subjects)",50g white bread,"Lee et al., 1998 [156]",Canada
+109,Tea/water + 50g fructose + 50g glucose,500mL,100.9,"healthy, BMI 22.2 (7 subjects)",100g white bread,"Lee et al., 1998 [156]",Canada
+110,Tea/water + 50g glucose,500mL,126.3,"healthy, BMI 22.2 (8 subjects)",50g white bread,"Lee et al., 1998 [156]",Canada
+111,Tea/water + 50g sucrose,500mL,57.5,"healthy, BMI 22.2 (8 subjects)",50g white bread,"Lee et al., 1998 [156]",Canada
+112,Vita-Brits (Nabisco) + reduced fat milk,51.2,96.9,"healthy, BMI 22.9; (7 subjects)",81.7g white bread,"Holt et al., 1992 [158]",Australia
+113,Wheat pretzel (traditional),62,79,"healthy, BMI <30; (12 subjects)",glucose standard drink; Glucola,"Simmons et al., 2011 [155]",United States of America
+114,Wheat tortilla,NA,62.4,healthy; (8 subjects),Bread,"Noriega et al., 2001 [141]",Mexico
+115,White bread,107,86,BMI 22; (9 subjects),50g glucose,Lan-Pidhainy et al 2011 [47],Canada
+116,White bread,108,71,healthy; (10 subjects),108g white bread,"Esfahani et al., 2014 [152]",Canada
+117,White bread (Giant Eagle King Size enriched bread),NA,62.8,"healthy, BMI <30; (12 subjects)",glucose standard drink; Glucola,"Simmons et al., 2011 [155]",United States of America
+118,White rice,50g avCHO equivalent,83,"normal, no info; (8 to 10 subjects)",50g glucose,"Izquierdo et al., 2006 [139]",Venezuela
+119,White rice,150,79,no info,50g glucose; pure glucose,"Erwig et al., 2005 [138]",Germany
+120,Whole grain rye bread,163.4,70,"healthy, BMI 22.6; (9 subjects)",124g bread (50g carbohydrates),"Rosén et al., 2011a [86]",Sweden
+121,Whole milk,NA,148,BMI 23.5; (9 subjects),25g glucose,"Hoyt et al., 2005 [154]",United States of America
+122,Xylitol,NA,11,no info,NA,Livesey 2003 [146],United Kingdom
+123,Yapunya honey,36.9,49,BMI 22.3; (9 subjects),25g glucose in 250mL water,"Arcot et al., 2005 [65]",Australia
+124,Yuca (cassava),50g avCHO equivalent,96.3,"normal, no info; (8 to 10 subjects)",50 g glucose,"Izquierdo et al., 2006 [139]",Venezuela
