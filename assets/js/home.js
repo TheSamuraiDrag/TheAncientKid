@@ -143,10 +143,13 @@ export function renderHome(app, data) {
     <div class="carousel-wrap">
       <ul class="carousel" tabindex="0" aria-label="Surprising findings, scrolls sideways">
         ${FINDINGS.map((f) => `<li><a class="finding" href="${f.href}" style="${groupStyle(g[f.group])}">
-          <span class="finding-emoji" aria-hidden="true">${f.emoji}</span>
-          <span class="finding-label">${esc(f.label)}</span>
-          <span class="finding-big">${esc(f.big)}</span>
+          <span class="finding-top">
+            <span class="finding-label">${esc(f.label)}</span>
+            <span class="finding-emoji" aria-hidden="true">${f.emoji}</span>
+          </span>
+          <span class="finding-big${/\d/.test(f.big) ? '' : ' is-words'}">${esc(f.big)}</span>
           <span class="finding-text">${esc(f.text)}</span>
+          <span class="finding-more">See the foods <span aria-hidden="true">→</span></span>
         </a></li>`).join('')}
       </ul>
       <div class="carousel-nav">
