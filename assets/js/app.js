@@ -4,6 +4,7 @@
 import { setData, wireGlobal, wireImages, wireReveal, setDetailListener, closeSheet, esc } from './ui.js';
 import { renderHome } from './home.js';
 import { renderExplorer } from './explorer.js';
+import { renderAdmin } from './admin.js';
 
 const app = document.getElementById('app');
 let data = null;
@@ -49,11 +50,12 @@ function render() {
 
   if (route === 'home') current.cleanup = renderHome(app, data);
   else if (route === 'explorer') current.cleanup = renderExplorer(app, data, params);
+  else if (route === 'admin') current.cleanup = renderAdmin(app, data, params);
   else if (PAGES[route]) renderPlaceholder(route);
   else { location.replace('#/'); return; }
 
   document.title = route === 'home' ? 'Insulin Index Explorer'
-    : `${route === 'explorer' ? 'Food Explorer' : PAGES[route].title} · Insulin Index Explorer`;
+    : `${{ explorer: 'Food Explorer', admin: 'Data check' }[route] || PAGES[route].title} · Insulin Index Explorer`;
 
   wireImages(app);
   wireReveal(app);
